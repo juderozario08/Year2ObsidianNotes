@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "c2f518bcba08120c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8247ccf010edbce3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "510cb0ca5a308333",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "CMTH 380"
+              }
+            }
+          },
+          {
+            "id": "40f849e3187b3b84",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "CPS 393"
+              }
+            }
+          },
+          {
+            "id": "548969dff6872954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPS 305/Week 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1049005e452c43f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "802f1408fc274cc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f5b9f6f68420ee5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f84efa037f0060b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f37a108dee937d65",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb8cffd453c725e6",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d34ed165c264a315",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d2864159f57a115",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2de71dc3044f70db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPS 305/Week 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee48a0926e3909e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPS 305/Week 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "676fd5ed1d555b84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "534e74a1df2aa691",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPS 305/Week 1.md"
+              }
+            }
+          },
+          {
+            "id": "ffd0b64b7a9bd952",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fc6dcae6d78c268e",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "548969dff6872954",
+  "lastOpenFiles": [
+    "CPS 305/Week 1.md",
+    "CPS 393/U1.md",
+    "CPS 393/U6.md",
+    "CPS 393/U5.md",
+    "CPS 393/U4.md",
+    "CMTH 380/Descriptive Statistics (Part 1).md",
+    "CMTH 380/context.mdb",
+    "CMTH 380/CMTH 380.md",
+    "CMN 300/CMN 300.md",
+    "CPS 393/U2.md",
+    "CPS 393/U3.md",
+    "CPS 305/Week 2.md",
+    "CPS 393/CPS 393.md",
+    "CPS 305/CPS 305.md",
+    "CMTH 380",
+    "CMN 300",
+    "CPS 393",
+    "CPS 305",
+    "Context/spacesLastSync.log",
+    "Context"
+  ]
+}
