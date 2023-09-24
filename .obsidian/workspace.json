@@ -11,9 +11,23 @@
             "id": "510cb0ca5a308333",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "CMTH 380"
+                "file": "CPS 305/Week 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d45ba1ccc5b2a96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPS 305/Week 1.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -26,21 +40,9 @@
                 "contextPath": "CPS 393"
               }
             }
-          },
-          {
-            "id": "548969dff6872954",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPS 305/Week 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,6 +63,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "641d52976d0f6c7f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
             }
           },
           {
@@ -95,11 +105,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 224.5
   },
   "right": {
     "id": "d34ed165c264a315",
@@ -174,8 +184,25 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "a251664216bcbfee",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "0d6db11bae3ce8ac",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -190,25 +217,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "548969dff6872954",
+  "active": "0d45ba1ccc5b2a96",
   "lastOpenFiles": [
+    "CPS 305/Week 2.md",
     "CPS 305/Week 1.md",
+    "CPS 393/CPS 393.md",
+    "CMN 300/Untitled 1.md",
+    "CMN 300/Untitled.md",
+    "CMN 300/Week 2.md",
+    "CMN 300/CMN 300.md",
+    "CMTH 380/Descriptive Statistics (Part 1).md",
+    "CPS 305/CPS 305.md",
+    "CMTH 380/CMTH 380.md",
+    "Waypoint/Table of Contents.md",
+    "Waypoint",
+    "Table of Contents",
     "CPS 393/U1.md",
     "CPS 393/U6.md",
     "CPS 393/U5.md",
     "CPS 393/U4.md",
-    "CMTH 380/Descriptive Statistics (Part 1).md",
     "CMTH 380/context.mdb",
-    "CMTH 380/CMTH 380.md",
-    "CMN 300/CMN 300.md",
     "CPS 393/U2.md",
     "CPS 393/U3.md",
-    "CPS 305/Week 2.md",
-    "CPS 393/CPS 393.md",
-    "CPS 305/CPS 305.md",
     "CMTH 380",
     "CMN 300",
     "CPS 393",

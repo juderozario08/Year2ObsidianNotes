@@ -39,7 +39,8 @@
       "CMTH 380",
       "CPS 393",
       "CPS 305",
-      "CPS 393"
+      "CPS 393",
+      "CMN 300"
     ]
   },
   "expandedSpaces": [
@@ -77,7 +78,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1694699819242,
+  "spacesAutoBackupLast": 1695111202825,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
