@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "2c6057764acfee12",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce2c923f6d001ca7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65f19bb73f11715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPS393/Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bf36c7b747b2191",
+    "type": "split",
+    "children": [
+      {
+        "id": "366336b5503891e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "319c3ddbe27bc856",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "278e2473a4df1383",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d82b8ab054abcc6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ad2e38abbde8da4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "843e26a06a918fac",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6aceda436b1906a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "febcdf7f7335cdd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7520d2317c9184bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPS393/Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1453a3f5d1eb8b26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPS393/Commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "069a9784e4b9eb1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ea45085238542f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPS393/Commands.md"
+              }
+            }
+          },
+          {
+            "id": "57230331e7185fab",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "d65f19bb73f11715",
+  "lastOpenFiles": [
+    "CPS393/U3.md",
+    "CPS393/Commands.md",
+    "CPS393/U2.md",
+    "CPS393/U4.md",
+    "CPS305/Week 1.md",
+    "CPS305/Week 2.md",
+    "CPS393/CPS393.md",
+    "Context/spacesLastSync.log",
+    "Context",
+    "CPS393/CPS 393.md"
+  ]
+}
