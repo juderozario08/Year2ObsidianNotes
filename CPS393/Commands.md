@@ -17,6 +17,7 @@ ls -l # List all files with permissions
 ls -al # Lists all files with their permissions
 ls -a # List all files including hidden
 ls -t # Lists all files in order sorted from latest modified
+
 ```
 #pwd
 ```bash
@@ -112,8 +113,19 @@ ls -t | head >"Output Filename" # Puts the output in a file
 last | head # Show the last 10 logins on this machine
 cat "filename" | head -lineNumber | tail -lines # Print the last tail number of lines starting from where head ends
 cat "filename" | head -lineNumber | tee theselines | tail -lines # Also save the first lines on the file called theselines
+```
+
+# Practice Commands
+```bash
 * # String of characters
 ? # Single character
 [...] # Single char from set of chars within the brackets
+# These are examples char sequences with glob constructs
+[:alnum:] [:alpha:] [:blank:] [:cntrl:]
+[:digit:] [:graph:] [:lower:] [:print:]
+[:punct:] [:space:] [:upper:] [:xdigit:]
+ls [[:upper:][:upper:]]* # Would search for an upper case character followed by all possible combinations
+~+ # Current working dir
+mkdir newfile; cd newfile; touch newFile.txt # Use multiple commands at once
 
 ```

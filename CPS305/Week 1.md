@@ -1,4 +1,4 @@
-```lisp
+😳```lisp
 (/ (- 2 (- 3 (+ 6 (/ 4 5)))) (* 3 (- 6 2)))
 ```
 This expression first does the smallest bracket and then goes up slowly based on the order.

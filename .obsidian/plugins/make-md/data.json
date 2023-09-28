@@ -43,7 +43,8 @@
   "expandedSpaces": [
     "/",
     null,
-    "Year2Notes"
+    "Year2Notes",
+    null
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
@@ -74,7 +75,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1695736596847,
+  "spacesAutoBackupLast": 1695928053549,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

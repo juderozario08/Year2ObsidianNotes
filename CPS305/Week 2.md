@@ -1,4 +1,4 @@
-#cond
+   #cond
 ```lisp
 (defun whereis (city)
 	; cond allows automatic if and else without writing it
@@ -64,7 +64,6 @@ The *var* works like the i, the *result-form* is the return value after the loop
 	)
 )
 (defun cpt-vowels (s) (dotimes (i (length s) s)
-
 (when (vowelp (aref s i))  
 (setf (aref s i) (cpt-char (aref s i))))))
 ```
