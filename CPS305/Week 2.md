@@ -52,6 +52,50 @@ The *var* works like the i, the *result-form* is the return value after the loop
 	(format t "temp1: ~a temp2: ~a~%" temp1 temp2)
 )
 ```
+- First temp1 = 1 and temp2 = 0
+- When temp1 - temp2 > 5, we return temp1
+- Otherwise we do the step
+- The function can also be written without a return value
+```lisp
+(do* 
+	(
+		(i 0 (1+ i))
+		(s (read-line) (read-line))	; This one is saying initially its a read line but also the next step will be a read line
+		(acc (length s) (+ acc (length s))) ; Add the lenght of the user input to acc
+	)
+	((equal s "exit")) ; Exit condition is s = 'exit'
+	(format t "~a: ~a ~a~%" i s acc) ; Otherwise keep printing 
+)
+```
+**Do** loops work until a condition is met and then it will exit. Kind of like **while false**. **Do**** works let* where it initiates the variables serially instead of parallel.
+
+# Algorithm Analysis
+- Comparison of programs depends on the criteria used for the comparison
+	- readability
+	- the algorithm itself
+- In Algorithm Analysis, we focus on the algorithm
+- In particular, we are concerned with comparing algorithms based upon the amount of **computing resources** that each algorithm uses.
+
+# Computing Resources
+- Two ways of looking at **computing resources** an algorithm requires to solve a problem
+	- The amount of **memory**
+	- The amount of **time**, usually refers as **execution time** or **running time**
+
+# Big-O notation
+- In general, the running time of an algorithm grows with the size of the input
+- The notion for **input size** depends on the problem being studied
+- **T(n)** represents the **running time** of an algorithm on an input of size *n*.
+- The **Order of magnitude** function ***O(f(n))*** describes the part *f(n)* of *T(n)* that increases the fastest when n grows.
+- When *n* gets larger, the term *n^2* becomes the most important
+- Running time ***T(n)*** above has an order magnitude *O(n^2)*
+# ------------Memorize the Order-------------
+![[Pasted image 20231011193646.png]]
+![[Pasted image 20231011193700.png]]
+
+# Obtaining the order of Magnitude
+- Identify which of ***T(n)*** increases its value fastest when n grows
+- Remove the other terms
+
 # Practice
 ```lisp
 (defun vowelp (c)  
@@ -67,8 +111,3 @@ The *var* works like the i, the *result-form* is the return value after the loop
 (when (vowelp (aref s i))  
 (setf (aref s i) (cpt-char (aref s i))))))
 ```
-
-
-
-
-

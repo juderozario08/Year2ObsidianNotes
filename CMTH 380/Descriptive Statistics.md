@@ -1,0 +1,12 @@
+# Things to study for
+- Qualitative and Quantitative variables
+- Univariate population 
+- Bivariate population
+- N = population size & n = sample size
+- Discrete (can be selected) and continuous(can't be separated) values
+- ***Parameter***  the numerical characteristic of a population
+- Number characteristic of a sample is called ***statistic***.
+- Qualitative graphs include (Pie or Bar graphs)
+-  Quantitative data - ordered arrays, dotplots, stem and leaf plots, frequency distributions or relative frequency distributions
+- Sample mean and population mean, median
+- 

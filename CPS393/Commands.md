@@ -105,6 +105,33 @@ more [filename] # Cat with pages (spacebar for next pg, enter for next line and 
 ```bash
 tee text.txt # Save in a file, used with piping usually
 ```
+
+#grep
+# GREP
+```sh
+# GREP GLOBAL REGULAR EXPRESSION PRINT
+# General format
+grep [option] [expression] [filename(s)]
+# -e is a must when you want to use regex and -f is a must for searching files
+
+############## METACHARACTERS #################
+. # any character, except new line
+* # 0 or more repititions of previous character
+^ # beginning of line
+$ # end of line
+[ ... ] # any character inside the brackets (like glob)
+[^ ...] # Any character not inside the brackets
+\{m\} # == m repitions of the previous character
+\{m,\} # >= m repititions of the previous character
+\{m,n\} # m <= repitions of characters <= n
+\< # Beginning of a word
+\> # end of word
+\(str\) # group string str
+# NOTE: \ can also be used as an escape character
+| # Or
++ # One or more
+```
+
 #pipe
 # Piping Commands
 ```bash
@@ -125,7 +152,16 @@ cat "filename" | head -lineNumber | tee theselines | tail -lines # Also save the
 [:digit:] [:graph:] [:lower:] [:print:]
 [:punct:] [:space:] [:upper:] [:xdigit:]
 ls [[:upper:][:upper:]]* # Would search for an upper case character followed by all possible combinations
+ls [[:upper:]][[:upper:]]* # Would search for an upper case character followed by all possible combinations
 ~+ # Current working dir
 mkdir newfile; cd newfile; touch newFile.txt # Use multiple commands at once
-
+find [path] [option] filename
+```
+# REGEX in the shell
+```sh
++(exp) # >=1
+?(exp) # <=1
+*(exp) # >=0
+@(exp1|exp2|...) # Works like an or condition
+!(exp) # Anything that does not match exp
 ```
