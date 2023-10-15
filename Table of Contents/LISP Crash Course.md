@@ -121,38 +121,73 @@ This variable is available for all functions and values within the file
 ```
 This changes the value of upperb permanently within the file. ":=" this is a synonym for setf.
 
-# Practice Examples
-```lisp 
-; Function practice examples
-
-(defun cube (x) (* x x x))
-(defun add1 (x) (+ x 1))
-(defun add2 (x) (add1 (add1 x)))
-(defun max2 (x y) if (> x y) x y)
-(defun onemoreep (x y) (= x (add1 y)))
-
-; Write a function that takes in a final score n. 0 <= n <= 100, and returns the respective grade number:
-
-(defun convert-to-letter-grade(numeric-grade)
-	(case (floor numeric-grade 10)
-		(10 "A")
-		(9 "A")
-		(8 "B")
-		(7 "C")
-		(6 "D")
-		(otherwise "F")
+   #cond
+```lisp
+(defun whereis (city)
+	; cond allows automatic if and else without writing it
+	; eq is to check if two things are equal
+	(cond ((eq city 'toronto) 'canada)
+		  ((eq city 'whatever) 'heaven)
+		  ; checks if city is either dumbstuff or wtfiseventhat
+		  ; then returns bruh
+		  ((or (eq city 'dumbstuff ) (eq city 'wtfiseventhat)) 'bruh)
+		  ; Last case scenario, print unknown
+		  ; the T means that the condition is True
+		  (t 'unknown')
 	)
-)
-(defun withdraw (amount)
-
-; Check if balance >= amount
-; If so then set balance to balance - amount
-; Else print insufficient funds
-; At the end just print the balance
-	(if (>= balance amount)
-		(setf balance (- balance amount))
-		(print "Insufficient Funds")
-	)
-	balance
 )
 ```
+***cond*** allows the execution of *forms* to be dependent on *test-form*.
+*eq*: checks if two things are equal to each other.
+*form*: any object meant to be evaluated. 
+*test-form*: an ordered set of adjacent forms appearing in another form, and defined by their context in that form to be executed as if within a progn.
+
+#dotimes
+```lisp
+; For loop in lisp
+(dotimes (var count-form [result-form])
+	body-form*) ; returns the value of the result form or returns nil
+; The secondary bracket inside is for all variables.
+; Everything outside the secondary bracket inside is for body code
+(let ((age 18))
+	 (dotimes (i 3 age)
+		 (setf age (+ age 1))
+		 (format t "Age: ~a Loop: ~a~%" age i)
+	 )
+)
+
+```
+The *var* works like the i, the *result-form* is the return value after the loop ends. The *count-form* is like the < end_of_loop_number. *body-form* is where the conditions and the codes are written. If we do not put the *result-form* it will just return *nil*. Unless we write a return statement inside the body, then it will break the loop and print the thing that was returned. 
+
+#do #dostar
+```lisp
+; each *var-definition* is a list (var init [step-form])
+(do (var-definition*)
+	(end-test result-form*)
+	body-form*)
+
+; Example
+(do (
+		 (temp1 1 (1+ temp1)) ; variable, initialize, step
+		 (temp2 0 (1- temp2)) ; variable, initialize, step
+	)
+	((> (- temp1 temp2) 5) temp1) ; end-test condition, return value
+	(format t "temp1: ~a temp2: ~a~%" temp1 temp2)
+)
+```
+- First temp1 = 1 and temp2 = 0
+- When temp1 - temp2 > 5, we return temp1
+- Otherwise we do the step
+- The function can also be written without a return value
+```lisp
+(do* 
+	(
+		(i 0 (1+ i))
+		(s (read-line) (read-line))	; This one is saying initially its a read line but also the next step will be a read line
+		(acc (length s) (+ acc (length s))) ; Add the lenght of the user input to acc
+	)
+	((equal s "exit")) ; Exit condition is s = 'exit'
+	(format t "~a: ~a ~a~%" i s acc) ; Otherwise keep printing 
+)
+```
+**Do** loops work until a condition is met and then it will exit. Kind of like **while false**. **Do**** works let* where it initiates the variables serially instead of parallel.
