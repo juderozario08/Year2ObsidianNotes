@@ -141,8 +141,7 @@ As long as the variable initializations, variable update operations, test, and r
 	    (setf (movie-year my_movie) 1982)
 	    ; Reminder that the body does not have to be inside another bracket
 	    ; This returns all the values together
-	    ; Typing format
-	    ; (structName-accessorName varName)
+	    ; Typing format (structName-accessorName varName)
 	    (values (movie-title my_movie)
             (movie-director my_movie)
             (movie-year my_movie)
@@ -242,14 +241,116 @@ Creating a list using recursion
 ```lisp
 (defun mymake-list-rec (n element &optional (acc nil)) 
 	(if (= n 0) acc
-		(mymake-list-rec (1- n) element (cons element acc))
+		(mymake-list-rec (1- n) element (cons element acc)) ; Adds element to the beginning recursively
 	)
 )
 
-(defun mymake-list-it (n elem) (let ((acc nil))
-	(dotimes (i n acc)  
-		(setf acc (cons elem acc))
+(defun mymake-list-it (n elem) 
+	(let ((acc nil))
+		(dotimes (i n acc)  
+			(setf acc (cons elem acc)) ; Adds an element to 
 		)
 	)
 )
+```
+
+# Programmer-defined Linked Lists
+- Structure
+	- node tuple stores information about a data item in the list and the next item in the list. Consists for 2 slots:
+		- *data*: a reference to the data item
+		- *next*: a reference to the next item
+		- *head*: a pointer to the node at the head of the list
+		- *size*: the length of the list (CAVEAT LECTOR: keeping track of size increases storage requirement)
+```lisp
+(defstruct node 
+	data next)
+
+(defstruct my-list 
+	(head nil :type (or node null)) ; Can be of type node or null
+	(size 0 :type (integer 0)) ; Has to be an integer > 0
+)
+
+(defun is-empty (list)
+	(equalp list (make-my-list)) ; Equalp compares structures
+)
+
+(defun my-car (alist)
+	(node-data (my-list-head alist))
+)
+
+(defun my-cdr (alist)
+	(if (is-empty alist) alist
+		(make-my-list :head :size)
+	)
+)
+```
+
+# Come back to this part for linked lists (Week 4 Lecture 2 and 3)
+
+# Queues
+- Simplest way for implementing scheduling mechanisms
+- **First in first out (FIFO)**
+	- printing queues
+	- OS control processes
+	- Customer service lines
+```lisp
+add the code here
+```
+
+# Stack
+- Provides the simples way of saving information in a temporary storage location
+- **Last in First Out (LIFO)**
+- Applications
+	- backward navigation in web browsers
+	- mathematical expression evaluation
+	- management of recursive subroutine calling
+	- undo/redo operations in text editors
+- Very simple to implement using a list
+- Interface: push, pop, peek, is_empty
+```lisp
+add code here
+```
+
+# Double Ended Queue (Dequeue)
+- A hybrid linear structure that provides all the capabilities of stacks and queues in a single data structure.
+- It can be traversed using FIFO(Queue) or LIFO(Stack)
+- 4 operations: PUSH-FRONT, PUSH-BACK, POP-FRONT, POP-BACK
+- Applications
+	- Main worker is processing items from the front
+	- while other workers may steal the lowest-priority items from the back
+```lisp
+add the code here
+```
+
+# Sets
+- A set is an unordered collection of items
+- Each item appears only once inside a set
+- Applications:
+	- To track items we have already seen and processed
+	- When calculating some relations between groups of elements
+- The set interface:
+	- ELEMENT-OF-SET? checks whether an item is in the set 
+	- INSERT-SET/REMOVE-SET: adds/removes an item
+	- SUBSET-SET checks whether a set is a subset of another set
+
+# Create all the helper functions- (Lisp has a built in member function)
+- Run time of element-of-set:
+	- May scan the entire set (worst case scenario)
+	- Set has n elements, so it might take up to n steps
+	- Hence the order of growth of the run time is O(n)
+```lisp
+; Insert all the code here
+```
+
+# Merge Sort
+- Merge sort is not based on swap operations
+- Uses a divide and conquer approach as a way to improve performance
+- Recursively splits a list in half
+- Then merges the sublists, by combining them into a sorted list
+- Analysis:
+	- Split: Divide a list in half logn times where n is the length of the list
+	- Merge: Each item in the list will eventually be processed and placed on the sorted list. Hence n merges. 
+	- Therefore, nlogn operations. Merge sort is O(nlogn).
+```lisp
+add code here
 ```

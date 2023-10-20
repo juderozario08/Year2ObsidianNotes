@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fe5830b508bcafeb",
+        "id": "ae40a1377a78d6e0",
         "type": "tabs",
         "children": [
           {
-            "id": "757cd8ce43c1195c",
+            "id": "9ff2d8b17424e425",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CPS 305/Data Structure.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#selection-sort",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPS 305/Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CPS 305/Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CPS 305/Data Structure.md"
+              }
             }
           },
           {
@@ -185,17 +194,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "757cd8ce43c1195c",
+  "active": "9ff2d8b17424e425",
   "lastOpenFiles": [
-    "Table of Contents/Search and Sort.md",
-    "CPS 305/context.mdb",
-    "CPS 305/Week 5.md",
-    "CPS 305/Table of Contents.md",
+    "CPS 305/Data Structure.md",
+    "CPS 305/Midterm Study Stuff.md",
     "CPS 305/Search and Sort.md",
     "CPS 305/Personal Practice.md",
-    "CPS 305/Midterm Study Stuff.md",
     "CPS 305/LISP Crash Course.md",
-    "CPS 305/Data Structure.md",
+    "CPS 305/Table of Contents.md",
+    "CPS 305/Week 5.md",
+    "CMN Presentation Script.md",
+    "Table of Contents/Search and Sort.md",
+    "CPS 305/context.mdb",
     "CPS 305",
     "Table of Contents/Data Structure.md",
     "Table of Contents/Personal Practice.md",
@@ -217,7 +227,6 @@
     "CMTH 380/Descriptive Statistics.md",
     "Excalidraw/Drawing 2023-10-11 22.10.50.excalidraw.md",
     "Excalidraw",
-    "CMN Presentation Script.md",
     "images/Pasted image 20231011214252.png",
     "images/Pasted image 20231011214249.png",
     "images",

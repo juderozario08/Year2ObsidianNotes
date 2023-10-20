@@ -98,11 +98,11 @@ else not found
   )
 ```
 - In-place sorting
-	- *RTL:SLICE* does not create new copies of subarrays
+	- *RTL:SLICE* works like python string slicing takes in input start stop. Default *start* = 0 and default *stop* = end 
 - **Analysis**
 	- Best Case:
 		- The pivot is in the middle of the vector
-		- On every interation (n comparisons + n/2 swaps + n/2 increments) = 2n operations. We will need to do that log n times
+		- On every iteration (n comparisons + n/2 swaps + n/2 increments) = 2n operations. We will need to do that log n times
 		- Hence T(n) = 2nlogn which is O(nlogn)
 	- Worst Case:
 		- Split point skewed to the left or right
