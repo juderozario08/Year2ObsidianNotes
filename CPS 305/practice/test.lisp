@@ -1,0 +1,13 @@
+(defstruct movie title director year type)
+
+(defun add-movie (movieM arr)
+  (dotimes (i (length arr))
+    (when (and (typep 'movie (aref arr i)) 
+              (equal (movie-title movieM) (movie-title (aref arr i))))
+      (return-from add-movie arr)
+    )
+    (unless (aref arr i)
+      (setf (aref arr i) (movieM))
+      )
+  )   
+) 

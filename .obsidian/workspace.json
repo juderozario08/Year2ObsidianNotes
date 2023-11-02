@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPS 305/Data Structure.md",
+                "file": "CPS393/C Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 305/Data Structure.md",
+                "file": "CPS393/C Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 305/Data Structure.md",
+                "file": "CPS393/C Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS 305/Data Structure.md"
+                "file": "CPS393/C Notes.md"
               }
             }
           },
@@ -191,12 +190,32 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "3d-graph:3D Graph": false
+      "3d-graph:3D Graph": false,
+      "notion-like-tables:Create loom": false
     }
   },
   "active": "9ff2d8b17424e425",
   "lastOpenFiles": [
+    "CPS393/C Notes.md",
+    "CPS393/Commands.md",
+    "CPS393/CPS393.md",
+    "CPS393/context.mdb",
+    "CPS 109 List.md",
+    "Pasted image 20231023152402.png",
+    "Pasted image 20231013212434.png",
+    "Pasted image 20231013192129.png",
+    "Pasted image 20231013191145.png",
+    "Pasted image 20231013191119.png",
+    "Pasted image 20231013191116.png",
+    "Pasted image 20231013191004.png",
+    "Pasted image 20231012192028.png",
+    "Pasted image 20231012191341.png",
+    "Untitled.canvas",
+    "Untitled.md",
     "CPS 305/Data Structure.md",
+    "Computer Science.md",
+    "CPS 305/practice/test.lisp",
+    "CPS 305/practice",
     "CPS 305/Midterm Study Stuff.md",
     "CPS 305/Search and Sort.md",
     "CPS 305/Personal Practice.md",
@@ -210,38 +229,20 @@
     "Table of Contents/Data Structure.md",
     "Table of Contents/Personal Practice.md",
     "Table of Contents/LISP Crash Course.md",
-    "Pasted image 20231013212434.png",
-    "Pasted image 20231013192129.png",
-    "Pasted image 20231013191145.png",
-    "Pasted image 20231013191119.png",
-    "Pasted image 20231013191116.png",
-    "Pasted image 20231013191004.png",
     "Table of Contents/Table of Contents.md",
     "Table of Contents/ToC.md",
     "Table of Contents/Midterm Study Stuff.md",
     "Table of Contents/context.mdb",
-    "Pasted image 20231012191341.png",
-    "Pasted image 20231012192028.png",
     "Table of Contents/Week 5.md",
     "CPS305/Week 3.md",
     "CMTH 380/Descriptive Statistics.md",
     "Excalidraw/Drawing 2023-10-11 22.10.50.excalidraw.md",
     "Excalidraw",
     "images/Pasted image 20231011214252.png",
-    "images/Pasted image 20231011214249.png",
     "images",
     "untitled folder",
     "images/CMN Presentation Script.md",
-    "2023-10-09.md",
-    "2023-10-09.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    ".md",
-    "CPS393/CPS393.md",
-    "CPS393/Commands.md",
-    "CMTH 380/CMTH 380.md",
-    "CMTH 380/context.mdb",
-    "Context/spacesLastSync.log",
-    "Context"
+    ".md"
   ]
 }

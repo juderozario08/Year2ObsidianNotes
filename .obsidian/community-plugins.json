@@ -24,5 +24,7 @@
   "obsidian-chartsview-plugin",
   "3d-graph",
   "colored-text",
-  "obsidian-file-color"
+  "obsidian-file-color",
+  "obsidian-csv-table",
+  "notion-like-tables"
 ]
