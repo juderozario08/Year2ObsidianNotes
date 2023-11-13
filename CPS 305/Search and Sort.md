@@ -1,4 +1,4 @@
-# Searching
+****# Searching
 - **Sequential search**: Searches over all elements of the vector starting from the first.
 	- *Complexity*
 		- Unordered (item is present) -> Best Case 1 Worst Case n
@@ -24,8 +24,24 @@ else not found
 	- **stable**: whether two elements considered equal maintain their original relative positions
 	- **online**: whether the algorithm has to see the whole sequence, or can work on a sorted prefix
 
+# Selection sort
 #selection-sort
 - **Selection sort**: *In-place* sorting algorithm. Moves left-to-right as it builds the sorted prefix to the left of the *current element*. In a pass, it finds the *best* element to the right of the current element that swaps these two elements
+```lisp
+(defun selectionSort (vec op)
+	(dotimes (curr (length vec) vec)
+		(let ((best curr))
+			(do ((i (+ 1 best) (incf i)))
+				((>= i (length vec)))
+				(when (funcall op (elt vec i) (elt vec best))
+					(setf best i)
+				)
+			)
+			(rotatef (elt vec best) (elt vec curr))
+		)
+	)
+)
+```
 - **Analysis** 
 	- number of comparisons
 		- Total number of comparisons ∑(n-1)(i=1) i = 0.5(n^2) - 0.5n
@@ -34,6 +50,7 @@ else not found
 		- best case: no exchange if list is sorted
 		- worst case: once exchange per pass, hence O(n)
 
+# Insertion sort
 #insertion-sort
 - **Insertion sort**
 	- it is *online*: the left part is already sorted; it doesn't have to find the maximum element of the whole sequence in a pass
@@ -61,7 +78,9 @@ else not found
 		- total number of comparisons ∑(n)(i=1)  = (n (n+1))/2, the sum of the arithmetic progression from 1 to n, because at each step, it may need to fully examine the sorted prefix to find the maximum and the prefix's size varies from 1 to n.
 		- O(n^2) comparisons
 
+
 #quicksort
+# Quicksort
 - **Quicksort**: Works in O(n log n) time. It relies on the divide-and-conquer approach: divides the sequence and recursively sorts its segments. The idea:
 	- A pivot value that helps us split the vector in two parts: one containing elements smaller than the pivot, and another containing those that are greater
 	- The position where the pivot actually belongs in the sorted sequence is called ppvt.
@@ -97,6 +116,26 @@ else not found
     )
   )
 ```
+
+```lisp
+(defun quicksort (vec op)
+	(when (> (length vec) 1)
+		(let ((ppvt 0)
+			  (pivot (elt vec (- (length vec) 1))))
+			  (dotimes (i (- (length vec) 1))
+				  (when (funcall op (elt vec i) pivot)
+					  (rotatef (elt vec i) (elt vec ppvt))
+					  (incf ppvt)
+				  )
+			  )
+			  (rotatef (elt vec ppvt) (elt vec (- (length vec) 1)))
+			  (quicksort (rtl:slice vec 0 ppvt) op)
+			  (quicksort (rtl:slice vec (1+ ppvt)) op)
+		)
+	)
+	vec
+)
+```
 - In-place sorting
 	- *RTL:SLICE* works like python string slicing takes in input start stop. Default *start* = 0 and default *stop* = end 
 - **Analysis**
@@ -107,4 +146,45 @@ else not found
 	- Worst Case:
 		- Split point skewed to the left or right
 		- Sublists to be sorted will have 0 items and n - 1 items
-		- Hence O(n^2)
+		- Hence O(n^2) (Possible only when the list is already sorted)
+
+#mergesort
+# Merge Sort
+- Merge sort is not based on swap operations
+- Uses a divide and conquer approach as a way to improve performance
+- Recursively splits a list in half
+- Then merges the sublists, by combining them into a sorted list
+- Analysis:
+	- Split: Divide a list in half logn times where n is the length of the list
+	- Merge: Each item in the list will eventually be processed and placed on the sorted list. Hence n merges. 
+	- Therefore, nlogn operations. Merge sort is O(nlogn).
+```lisp
+(defun merge-sort (vec op)
+	(if (null (cdr list))
+		(let ((half (floor (length list) 2)))
+			(merge-lists (merge-sort (subseq list 0 half) op)
+						 (merge-sort (subseq list half) comp)
+						 comp)
+		)
+	)
+	vec
+)
+(defun merge-lists (l1 l2 op)
+	(let ((res ()))
+		(do ()
+			(let ((i1 (car l1))
+				  (i2 (car l2)))
+				  (cond
+					  ((null i1) (dolist (i l2) (push i res)) (return))
+					  ((null i2) (dolist (i l1) (push i res)) (return))
+					  ((funcall op i1 i2) (push i1 res) (setf l1 (cdr l1)))
+					  (t (push i2 res) (setf (cdr l2)))
+				  )
+			)
+		)
+		(reverse res)
+	)
+)
+```
+
+

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPS393/C Notes.md",
+                "file": "CPS 109 List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9af2c388db487f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPS 305/Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS393/C Notes.md",
+                "file": "CPS 109 List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS393/C Notes.md",
+                "file": "CPS 109 List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS393/C Notes.md"
+                "file": "CPS 109 List.md"
               }
             }
           },
@@ -196,11 +209,18 @@
   },
   "active": "9ff2d8b17424e425",
   "lastOpenFiles": [
+    "Pasted image 20231112154436.png",
+    "CPS 305/Personal Practice.md",
+    "CPS 305/Search and Sort.md",
+    "CPS 305/Recursion.md",
+    "CPS 305/Data Structure.md",
+    "CPS 109 List.md",
+    "CPS 305/LISP Crash Course.md",
     "CPS393/C Notes.md",
+    "Pasted image 20231101205642.png",
     "CPS393/Commands.md",
     "CPS393/CPS393.md",
     "CPS393/context.mdb",
-    "CPS 109 List.md",
     "Pasted image 20231023152402.png",
     "Pasted image 20231013212434.png",
     "Pasted image 20231013192129.png",
@@ -212,14 +232,10 @@
     "Pasted image 20231012191341.png",
     "Untitled.canvas",
     "Untitled.md",
-    "CPS 305/Data Structure.md",
     "Computer Science.md",
     "CPS 305/practice/test.lisp",
     "CPS 305/practice",
     "CPS 305/Midterm Study Stuff.md",
-    "CPS 305/Search and Sort.md",
-    "CPS 305/Personal Practice.md",
-    "CPS 305/LISP Crash Course.md",
     "CPS 305/Table of Contents.md",
     "CPS 305/Week 5.md",
     "CMN Presentation Script.md",
@@ -236,12 +252,9 @@
     "Table of Contents/Week 5.md",
     "CPS305/Week 3.md",
     "CMTH 380/Descriptive Statistics.md",
-    "Excalidraw/Drawing 2023-10-11 22.10.50.excalidraw.md",
     "Excalidraw",
-    "images/Pasted image 20231011214252.png",
     "images",
     "untitled folder",
-    "images/CMN Presentation Script.md",
     "Untitled 1.canvas",
     ".md"
   ]

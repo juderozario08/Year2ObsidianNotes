@@ -341,16 +341,3 @@ add the code here
 ```lisp
 ; Insert all the code here
 ```
-
-# Merge Sort
-- Merge sort is not based on swap operations
-- Uses a divide and conquer approach as a way to improve performance
-- Recursively splits a list in half
-- Then merges the sublists, by combining them into a sorted list
-- Analysis:
-	- Split: Divide a list in half logn times where n is the length of the list
-	- Merge: Each item in the list will eventually be processed and placed on the sorted list. Hence n merges. 
-	- Therefore, nlogn operations. Merge sort is O(nlogn).
-```lisp
-add code here
-```

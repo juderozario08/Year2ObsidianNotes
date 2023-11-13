@@ -75,3 +75,57 @@
 
 
 ```
+# Quicksort
+```lisp
+(defun quickSortm (vec op)
+  (quicksort-main vec op 0 (- (length vec) 1))
+  vec
+  )
+(defun quickSort-main (vec op low high)
+  (if (> high low)
+      (let ((pivot (partition vec op low high)))
+        (quicksort-main vec op low (- pivot 1))
+        (quicksort-main vec op (+ pivot 1) high)
+        )
+      )
+  )
+(defun partition (vec op low high)
+  (let ((pivot_value (elt vec high))
+        (i low))
+    (do ((j i (1+ j)))
+        ((>= j high))
+      (when (funcall op (elt vec j) pivot_value)
+        (rotatef (elt vec j) (elt vec i))
+        (setf i (1+ i))
+        )
+      )
+    (rotatef (elt vec i) (elt vec high))
+    (return-from partition i)
+    )
+  )
+```
+
+# Memorize this
+```lisp
+;;; How to flatten a list
+(defun flat (a)
+  (cond
+    ((null a) a)
+    ((listp (car a)) (append (flat (car a)) (cdr a)))
+    (t (cons (car a) (flat (cdr a)))))
+  )
+```
+
+```lisp
+;;; How to count the number of times an item was repeated
+(defun item-count (vec &optional (res (list)))
+  (if (null vec) res
+      (let ((item (find (car vec) res :key 'first)))
+        (if item (incf (cadr item))
+            (push (list (car vec) 1) res))
+        (item-count (cdr vec) res)
+        )
+      )
+  )
+
+```

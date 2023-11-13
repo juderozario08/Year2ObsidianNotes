@@ -1,3 +1,36 @@
+# Format Strings
+```c
+\n = new line
+\t = tab
+\a = alert
+\" = double quote
+
+%d = decimal integers = %i
+%c = character
+%s = string
+%f = floating point
+%lf = double (long floating point)
+```
+
+# Size of certain data types
+```c
+char = 1 byte = %c
+short int = 2 bytes = %hd
+int = 4 bytes or 2 = %d or %i
+long int = 4 bytes or 8 = %ld
+float = 4 bytes = %f
+double = 8 bytes = %lf
+```
+# Note: Use %zu if you want to print the sizeof(datatype)
+
+# Macros
+- \#define is a way to use macros in C
+```c
+#define var 10
+```
+- There are suffixes that can be used that change the meaning of the actual macro
+	- L is double (if has decimal) or long int (if no decimal)
+	- U is unsigned. U must go before L if used together
 # How to initialize a pointer
 - To create a pointer, we would use a star before a new variable name
 - A pointer always has to be initialized before it is used
@@ -22,5 +55,4 @@ printf("%d\n", *pX); // The * says, go to the address of pX and then point to th
 ![![CPS393/#^Table3]]
 - Dereferencing a pointer would look at the address of pX then dereference that to get the value at that address. Which would be the value of x.
 - It can also be read as **value of *variable name*** 
-
-# 
+![[Pasted image 20231101205642.png]]

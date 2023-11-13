@@ -148,6 +148,10 @@ print(string)
 ls.reverse() -> # Returns the same list but reading backwards. Similar to ls[::-1]. It DOES NOT SORT.
 ls.append(value) -> # Append a value to the end of the list
 ls.pop(index) -> # Removes a value at a particular index and returns that value as well
+# NOTE that by default, pop always gets rid of the last index
+# based on the list from earlier
+ls.pop() -> # This returns 4
+print(ls) -> [1,3,2,10,9]
 ls.remove(value) -> # Removes the first instance of the value in the list
 
 ls = [1, 3, 2, 10, 9, 4]
@@ -173,7 +177,60 @@ tuple.count(value) -> # counts how many times a value appeared in the tuple
 tuple.index(value) -> # Returns the index of the value in the first time it appeared in the tuple
 ```
 
-# Set
+# Set Datatype
+- Denoted with curly braces
+- Sets don't have any elements being repeated
+- Very similar to sets in math
+	- Note that {1,2} == {2,1} would still return **True** because 1 and 2 and both sets
+- Order does not matter when it comes to sets
+- **When to use sets**
+![[Pasted image 20231112154436.png]]
+```python
+A = {1,2,2,2,2,1,1,3,4,5}
+print(A) -> {1,2,3,4,5} -> # Notice how this does not include the duplicates
+```
+
+- ***Set Functions*** - For the following functions we will be using the variable A to describe a set
+```python
+A.add(value) -> # This would add an element inside the set
+A.clear() -> # Clears the entire set which means the final statement would print set()
+
+A.union(B) # This would return the union between the set A and the set B
+A = A.union({-1, 42}) -> # This changes the set to {1,2,3,4,5,-1,42} (order may not be the same)
+
+A.difference(B) # Does set subtraction by doing A - B
+A = A.difference({1,2}) -> # This changes the set to {3,4,5}
+
+A.intersection(B) -> # Returns a set that contains all elements that are the same between A and B
+A = A.intersection({-1,2}) -> # Returns {2} because 2 is the only element inside of A and in {-1, 2}
+
+A.issubset(B) -> # Checks if A is a subset of B
+A.issuperset(B) -> # Checks if B is a subset of A
+A.issubset({1,2,3,4,5,6}) -> # This returns true
+A.issubset({1,2,3,4}) -> # This returns False because st is not a subset of {1,2,3,4}
+
+# | this also works as a union symbol
+print({1,3,2} | {5,1,2}) -> # this prints {1,2,3,5} (order may not be the same)
+# & this also works as the intersection symbol
+print({1,3,2} & {5,1,2}) -> # this prints {1,2} (order may not be the same)
+```
+
+# Dictionaries
+- Dictionaries are data types that have a **key** and a **value**
+	- **Key** works as the *index* - **Can be any data type**
+	- **Value** works as the *value* at that index - **Can be any value as well**
+- Uses these brackets to initialize {}
+- Key and value are written in this format
+```python
+dct = {'name':'Sara', 'age':19, 'bf':'Jude', 'school':'TMU'}
+# Here the name, age, bf and school work like the index
+# So if we want to access your name we would type
+print(dct['name']) -> # This outputs 'Sara'
+print(dct['age']) -> # This outputs 19
+print(dct['bf']) -> # This outputs 'Jude'
+print(dct['school']) -> # This outputs 'TMU'
+```
+# Set Function
 - **This will remove all duplicates from the list**
 ```python
 lst = [1, 3, 3, 5, 18]
@@ -414,3 +471,35 @@ while n != 0
 return True
 ```
 
+# ''.join(list) or string.join(list)
+```python
+lst = ['two', 'three', 'one']
+tpl = ('two', 'three', 'one')
+string = "twothreeone"
+spacer = ', '
+print(''.join(lst)) -> # Prints twothreeone
+print(spacer.join(lst)) -> #Prints two, three, one
+
+print(''.join(tpl)) -> # Prints twothreeone
+print(spacer.join(tpl)) -> #Prints two, three, one
+
+print(''.join(string)) -> # Prints twothreeone
+print(spacer.join(string)) -> #Prints t, w, o, t, h, r, e, e, o, n, e
+```
+# How to reverse a list using recursion
+```python
+def reverse_list(items):
+	if items == []:
+		return items
+	return [items[-1]] + reverse_list(items[:-1])
+
+print(reverse_list([1,3,2,4]))
+# This is the walkthrough for the code
+[4] + reverse_list([1,3,2])
+      [2] + reverse_list([1,3])
+            [3] + reverse_list([1])
+                  [1] + reverse_list([])
+                        + []
+[4]+[2]+[3]+[1]+[] # This is how the recursive steps add
+[4,2,3,1] -> # This is the result
+```
