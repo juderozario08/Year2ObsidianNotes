@@ -3,23 +3,23 @@
 - # Remember that Strings and Tuples are immutable but lists aren't
 - Remember these built in functions:
 ```python
-	break -> # Breaks through a loop
-	continue -> # Skips that specific iteration
-	round(number, # of decimal places you want)
-	abs(number)
-	min(list), min(num1, num2, ...)
-	max(list), max(num1, num2, ...)
-	len(list, strings, tuples)
-	str -> generally used for converting some other data type to a string
-	int -> generally used for converting some other data type to an int
-	float -> generally used for converting some other data type to a float
-	bool -> generally used for converting some other data type to a bool
-	input(always takes input as a string unless specified to convert to something else)
-	range(start, stop(excluding), step)
-	sorted(takes in a list and sorts it)
-	type(checks the type of some value)
-	enumerate(list) -> # returns a list of tuples (index, value). Generally for forloops
-	print()
+break -> # Breaks through a loop
+continue -> # Skips that specific iteration
+round(number, # of decimal places you want)
+abs(number)
+min(list), min(num1, num2, ...)
+max(list), max(num1, num2, ...)
+len(list, strings, tuples)
+str -> generally used for converting some other data type to a string
+int -> generally used for converting some other data type to an int
+float -> generally used for converting some other data type to a float
+bool -> generally used for converting some other data type to a bool
+input(always takes input as a string unless specified to convert to something else)
+range(start, stop(excluding), step)
+sorted(takes in a list and sorts it)
+type(checks the type of some value)
+enumerate(list) -> # returns a list of tuples (index, value). Generally for forloops
+print()
 ```
 # Math methods to remember
 
@@ -220,6 +220,8 @@ print({1,3,2} & {5,1,2}) -> # this prints {1,2} (order may not be the same)
 	- **Key** works as the *index* - **Can be any data type**
 	- **Value** works as the *value* at that index - **Can be any value as well**
 - Uses these brackets to initialize {}
+- Generally used when you want to access a value using another keyword
+	- Count how many times each element was repeated inside a list
 - Key and value are written in this format
 ```python
 dct = {'name':'Sara', 'age':19, 'bf':'Jude', 'school':'TMU'}
@@ -229,6 +231,12 @@ print(dct['name']) -> # This outputs 'Sara'
 print(dct['age']) -> # This outputs 19
 print(dct['bf']) -> # This outputs 'Jude'
 print(dct['school']) -> # This outputs 'TMU'
+
+keys = list(dct.keys()) -> # This way you would get all the keys
+values = list(dct.values()) -> # This way you would get all the values
+print(keys) -> # This prints ['name', 'age', 'bf', 'school']
+print(values) -> # This prints ['Sara', '19', 'Jude', 'TMU']
+
 ```
 # Set Function
 - **This will remove all duplicates from the list**

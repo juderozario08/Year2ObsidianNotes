@@ -5,16 +5,16 @@
       "path": "CPS 109 List.md"
     },
     {
+      "basename": "Data Structure",
+      "path": "CPS 305/Data Structure.md"
+    },
+    {
       "basename": "Personal Practice",
       "path": "CPS 305/Personal Practice.md"
     },
     {
       "basename": "Search and Sort",
       "path": "CPS 305/Search and Sort.md"
-    },
-    {
-      "basename": "Data Structure",
-      "path": "CPS 305/Data Structure.md"
     },
     {
       "basename": "LISP Crash Course",
