@@ -3,8 +3,8 @@
 - # Remember that Strings and Tuples are immutable but lists aren't
 - Remember these built in functions:
 ```python
-break -> # Breaks through a loop
-continue -> # Skips that specific iteration
+break -> Breaks through a loop
+continue -> Skips that specific iteration
 round(number, # of decimal places you want)
 abs(number)
 min(list), min(num1, num2, ...)
@@ -82,11 +82,11 @@ print(string.title())
 ```
 - These few functions are generally used for each character at a time
 ```python
-string.isalpha() -> # checks if the character is an alphabet
-string.isdigit() -> # checks if the character is a digit
-string.islower() -> # checks if the character is lowercase
-string.isupper() -> # checks if the character is uppercase
-string.count() -> # counts the number of times a substring was repeated
+string.isalpha() -> checks if the character is an alphabet
+string.isdigit() -> checks if the character is a digit
+string.islower() -> checks if the character is lowercase
+string.isupper() -> checks if the character is uppercase
+string.count() -> counts the number of times a substring was repeated
 'a' is a lowercase letter
 'A' is an uppercase letter
 '1' is a digit
@@ -145,36 +145,36 @@ print(string)
 # But for lists, u just say list.sort() and it will sort the original list
 # So strings are immutable and lists are mutable
 
-ls.reverse() -> # Returns the same list but reading backwards. Similar to ls[::-1]. It DOES NOT SORT.
-ls.append(value) -> # Append a value to the end of the list
-ls.pop(index) -> # Removes a value at a particular index and returns that value as well
-# NOTE that by default, pop always gets rid of the last index
+ls.reverse() -> Returns the same list but reading backwards. Similar to ls[::-1]. It DOES NOT SORT.
+ls.append(value) -> Append a value to the end of the list
+ls.pop(index) -> Removes a value at a particular index and returns that value as well
+# NOTE: BY DEFAULT POP ALWAYS GETS RID OF THE LAST INDEX FROM A LIST 
 # based on the list from earlier
-ls.pop() -> # This returns 4
+ls.pop() -> This returns 4
 print(ls) -> [1,3,2,10,9]
-ls.remove(value) -> # Removes the first instance of the value in the list
+ls.remove(value) -> Removes the first instance of the value in the list
 
 ls = [1, 3, 2, 10, 9, 4]
-ls.pop(3) # This would remove the element at index 3. So 10 would be removed
-print(ls) # [1, 3, 2, 9, 4]
+ls.pop(3) -> This would remove the element at index 3. So 10 would be removed
+print(ls) -> [1, 3, 2, 9, 4]
 
 ls = [1, 3, 2, 9, 10, 9, 4]
-ls.remove(9) # This would remove first instance of the value from the list
-print(ls) # [1, 3, 2, 10, 9, 4]
+ls.remove(9) -> This would remove first instance of the value from the list
+print(ls) -> [1, 3, 2, 10, 9, 4]
 ```
 - ls.insert(index, value) -> Append a value in the list before a particular index
 ```python
 ls = [1, 3, 2, 9, 10, 4]
-ls.insert(2, 5) # Inserting the value 5 before index 2
-print(ls) # [1, 3, 5, 2, 9, 10, 4]
+ls.insert(2, 5) -> Inserting the value 5 before index 2
+print(ls) -> [1, 3, 5, 2, 9, 10, 4]
 ```
 
 # Tuples 
 - There are only two functions to remember for tuples
 - Let the variable name be tuple
 ```python
-tuple.count(value) -> # counts how many times a value appeared in the tuple
-tuple.index(value) -> # Returns the index of the value in the first time it appeared in the tuple
+tuple.count(value) -> counts how many times a value appeared in the tuple
+tuple.index(value) -> Returns the index of the value in the first time it appeared in the tuple
 ```
 
 # Set Datatype
@@ -187,32 +187,32 @@ tuple.index(value) -> # Returns the index of the value in the first time it appe
 ![[Pasted image 20231112154436.png]]
 ```python
 A = {1,2,2,2,2,1,1,3,4,5}
-print(A) -> {1,2,3,4,5} -> # Notice how this does not include the duplicates
+print(A) -> {1,2,3,4,5} -> Notice how this does not include the duplicates
 ```
 
 - ***Set Functions*** - For the following functions we will be using the variable A to describe a set
 ```python
-A.add(value) -> # This would add an element inside the set
-A.clear() -> # Clears the entire set which means the final statement would print set()
+A.add(value) -> This would add an element inside the set
+A.clear() -> Clears the entire set which means the final statement would print set()
 
-A.union(B) # This would return the union between the set A and the set B
-A = A.union({-1, 42}) -> # This changes the set to {1,2,3,4,5,-1,42} (order may not be the same)
+A.union(B) This would return the union between the set A and the set B
+A = A.union({-1, 42}) -> This changes the set to {1,2,3,4,5,-1,42} (order may not be the same)
 
-A.difference(B) # Does set subtraction by doing A - B
-A = A.difference({1,2}) -> # This changes the set to {3,4,5}
+A.difference(B) -> Does set subtraction by doing A - B
+A = A.difference({1,2}) -> This changes the set to {3,4,5}
 
-A.intersection(B) -> # Returns a set that contains all elements that are the same between A and B
-A = A.intersection({-1,2}) -> # Returns {2} because 2 is the only element inside of A and in {-1, 2}
+A.intersection(B) -> Returns a set that contains all elements that are the same between A and B
+A = A.intersection({-1,2}) -> Returns {2} because 2 is the only element inside of A and in {-1, 2}
 
-A.issubset(B) -> # Checks if A is a subset of B
-A.issuperset(B) -> # Checks if B is a subset of A
-A.issubset({1,2,3,4,5,6}) -> # This returns true
-A.issubset({1,2,3,4}) -> # This returns False because st is not a subset of {1,2,3,4}
+A.issubset(B) -> Checks if A is a subset of B
+A.issuperset(B) -> Checks if B is a subset of A
+A.issubset({1,2,3,4,5,6}) -> This returns true
+A.issubset({1,2,3,4}) -> This returns False because st is not a subset of {1,2,3,4}
 
 # | this also works as a union symbol
-print({1,3,2} | {5,1,2}) -> # this prints {1,2,3,5} (order may not be the same)
+print({1,3,2} | {5,1,2}) -> this prints {1,2,3,5} (order may not be the same)
 # & this also works as the intersection symbol
-print({1,3,2} & {5,1,2}) -> # this prints {1,2} (order may not be the same)
+print({1,3,2} & {5,1,2}) -> this prints {1,2} (order may not be the same)
 ```
 
 # Dictionaries
@@ -227,23 +227,28 @@ print({1,3,2} & {5,1,2}) -> # this prints {1,2} (order may not be the same)
 dct = {'name':'Sara', 'age':19, 'bf':'Jude', 'school':'TMU'}
 # Here the name, age, bf and school work like the index
 # So if we want to access your name we would type
-print(dct['name']) -> # This outputs 'Sara'
-print(dct['age']) -> # This outputs 19
-print(dct['bf']) -> # This outputs 'Jude'
-print(dct['school']) -> # This outputs 'TMU'
+print(dct['name']) -> This outputs 'Sara'
+print(dct['age']) -> This outputs 19
+print(dct['bf']) -> This outputs 'Jude'
+print(dct['school']) -> This outputs 'TMU'
+keys = list(dct.keys()) -> This way you would get all the keys
+values = list(dct.values()) -> This way you would get all the values
+print(keys) -> This prints ['name', 'age', 'bf', 'school']
+print(values) -> This prints ['Sara', '19', 'Jude', 'TMU']
 
-keys = list(dct.keys()) -> # This way you would get all the keys
-values = list(dct.values()) -> # This way you would get all the values
-print(keys) -> # This prints ['name', 'age', 'bf', 'school']
-print(values) -> # This prints ['Sara', '19', 'Jude', 'TMU']
+dct.items()-> Returns a list of tuples with key and value inside the tuple
+print(dct.items()) -> Prints [('name', 'Sara'), ('age', 19), ('bf', 'Jude'), ('school', 'TMU')]
 
+dct.pop(key) -> Gets rid of a key and returns its value
+print(dct.pop('school')) -> Prints 'TMU'
 ```
+# Note: Dictionaries and Sets are also mutable
 # Set Function
 - **This will remove all duplicates from the list**
 ```python
 lst = [1, 3, 3, 5, 18]
 lst = list(set(lst))
-print(lst) # This prints [1, 18, 3, 5]
+print(lst) -> This prints [1, 18, 3, 5]
 ```
 # Note that this won't work if you need the list in a certain order as it randomizes the list.
 # Tips - Based on Questions
@@ -328,21 +333,21 @@ def function():
 	global nums
 	nums = 20
 
-print(nums) # This would print 10
+print(nums) -> This would print 10
 function()
-print(nums) # This would print 20 as we changed the value of the nums variable using the function
+print(nums) -> This would print 20 as we changed the value of the nums variable using the function
 ```
-- Remember that **lists** can be sliced the sam way **srings** can be sliced
+- Remember that **lists** can be sliced the sam way **strings** can be sliced
 ```python
 string[start:stop:step] # This is the general format
 string = "Hello"
-print(string[2:]) -> # Prints 'llo'
-print(string[1:4]) -> # Prints 'ell'
+print(string[2:]) -> Prints 'llo'
+print(string[1:4]) -> Prints 'ell'
 
 # List slicing has the same format
 list[start:stop:step]
 list = [1,2,3,4,5,6,7,8]
-print(list[2:6]) -> # Prints [3, 4, 5, 6]
+print(list[2:6]) -> Prints [3, 4, 5, 6]
 ```
 - Always check if the order of operations make sense
 - Remember that any value in python other than an **empty string, empty list or 0** in python is **True**
@@ -350,6 +355,7 @@ print(list[2:6]) -> # Prints [3, 4, 5, 6]
 ```python
 if 1 # is the same as writing
 if True
+
 # Same way
 if 0/""/[] # is the same as writing
 if False
@@ -431,8 +437,8 @@ else:
 ```python
 import random
 # To generate a random number within a certain range, do this
-random.randint(1, 5) -> # This will generate a random integer between 1 to 5 both inclusive
-random.random() -> # This will generate a random value between 0 to 1 without including one and will include decimals
+random.randint(1, 5) -> This will generate a random integer between 1 to 5 both inclusive
+random.random() -> This will generate a random value between 0 to 1 without including one and will include decimals
 ```
 
 # Bisection Search (Memorize)
@@ -455,7 +461,7 @@ while abs(guess ** 2 - x) > eps:
 # Simplest way to solve that is checking if the forward is the same as the backward
 # We will do that using string slicing
 string = "racecar"
-if string == string[::-1] # string[::-1] reverses the string
+if string == string[::-1] string[::-1] reverses the string
 	return True
 else: 
 	return False
@@ -464,14 +470,14 @@ else:
 # Hints
 - Integers or floats do not have any index
 - # Remember these
-- n%10 gives you the last digit
-- n//10 gets rid of the last digit
+- ***n%10 gives you the last digit***
+- ***n//10 gets rid of the last digit***
 ```python
 # This is the only odds example from the pdf
 if n == 0:
 	return False
 while n != 0
-	if (n%10)%2 == 1: # Gets 
+	if (n%10)%2 == 1: # Gets the last digit and checks if it is an odd number
 		n = n//10 # Gets rid of the last digit
 		continue
 	else:
@@ -485,14 +491,79 @@ lst = ['two', 'three', 'one']
 tpl = ('two', 'three', 'one')
 string = "twothreeone"
 spacer = ', '
-print(''.join(lst)) -> # Prints twothreeone
-print(spacer.join(lst)) -> #Prints two, three, one
+print(''.join(lst)) ->  Prints twothreeone
+print(spacer.join(lst)) -> Prints two, three, one
 
-print(''.join(tpl)) -> # Prints twothreeone
-print(spacer.join(tpl)) -> #Prints two, three, one
+print(''.join(tpl)) -> Prints twothreeone
+print(spacer.join(tpl)) -> Prints two, three, one
 
-print(''.join(string)) -> # Prints twothreeone
-print(spacer.join(string)) -> #Prints t, w, o, t, h, r, e, e, o, n, e
+print(''.join(string)) -> Prints twothreeone
+print(spacer.join(string)) -> Prints t, w, o, t, h, r, e, e, o, n, e
+```
+# File I/O
+- For reading from a file or writing or appending to a file
+	- ***Reading*** means read every line from a file
+	- ***Writing*** means rewrite the whole file 
+	- ***Appending*** means writing to the bottom of the file without changing anything above
+- Best practice for opening a file is this
+```python
+with open("filename", "choose one of rwa") as file ('''file here is a variable'''):
+	do something here
+```
+- Based on the code above, once everything under that *with open* line is complete, the file automatically closes
+- A basic way to getting a filename would be to do this
+```python
+# Assuming your file is in the same file is as this python project
+with open('filename','r') as f
+# If the file is inside another folder thats still within the same python project
+# Then do this
+with open('foldername/filename', 'r') as f
+```
+# Some basic File I/O Functions
+```python
+# For the following functions, assume that we are using f as the variable for our file
+f.readline() -> This just reads a line from a file
+f.read() -> Returns the entire file as a string
+f.seek(startingLine, '''stoppingline is optional''') -> Sets the file to which line you are supposed to read ('''A little bit more technical I will show on call''')
+f.readlines() -> Returns a list of string with each line being an element inside the list
+f.write() -> 
+
+# Example File: File name = 'text.txt'
+'''My name is Jude
+   Her name is Sara
+   And I really really really love Sara
+   I love her a lot
+   She means the world to me'''
+# Lets say we will run this function on this particular file
+def readFile():
+	with open('text.txt', 'r') as f:
+		print(f.readline()) -> Prints 'My name is Jude'
+		print(f.readline()) -> Prints 'Her name is Sara'
+		print(f.readline()) -> Prints 'And I really really really love Sara'
+		f.seek(1) -> Sets the start position of the file to line 1 again
+		print(f.readline()) -> Prints 'Her name is Sara'
+		print(f.readline()) -> Prints 'And I really really really love Sara'
+		print(f.readlines()) -> Prints ['I love her a lot', 'She means the world to me'] # Notice how this only has all the files that were not read already
+```
+# Recursion Tips to Remember
+- Always contains a base case
+- Contains a recursive case which calls itself
+- The last part of recursion is always the first thing that executes 
+	- For example: Think of a stack of plates
+	- If you keep on stacking plates one on top of another
+	- The last plate is the also going to be the first plate that you take out
+	- **Last In is always First Out**
+- Your code must make progress towards the base case
+- When your code is supposed to return something make sure you return something in each if condition that you have
+```python
+# For Example
+# This is a recursive function that counts how many elements are there in a list/string/tuple
+def count(items);
+	if not items:
+		return 0
+	return 1 + count(items[1:]) -> This line adds one then gets rid of the first element
+# Notice how the return statement is there because you want your code to return that 1+ that you are constantly doing
+# Otherwise even though your code would work it will return None as the return statement is not there on the recursive call
 ```
 # How to reverse a list using recursion
 ```python
@@ -502,7 +573,7 @@ def reverse_list(items):
 	return [items[-1]] + reverse_list(items[:-1])
 
 print(reverse_list([1,3,2,4]))
-# This is the walkthrough for the code
+# This is the walkthrough for how the recursion is being called
 [4] + reverse_list([1,3,2])
       [2] + reverse_list([1,3])
             [3] + reverse_list([1])
@@ -510,4 +581,56 @@ print(reverse_list([1,3,2,4]))
                         + []
 [4]+[2]+[3]+[1]+[] # This is how the recursive steps add
 [4,2,3,1] -> # This is the result
+```
+# Practices
+# Transposing a matrix
+```python
+# [
+#. [1, 0, 0, 0, 0],       
+#  [0, 1, 0, 0, 0],
+#  [0, 0, 1, 0, 0],
+#  [0, 0, 0, 1, 1]
+# ]
+# Based on this diagram, we can see that row is each element in the original list
+# And the columns are a length of the element inside a list
+# For example a row would be considered [1, 0, 0, 0, 0]
+# And the number of columns would be considered the length of this particular row
+# For example len(matrix[0]) would print 5 which is the number of columns so the n value
+# len(matrix) would print the number of rows so the m value
+
+def transpose(matrix): -> # Recall that a matrix is a 2D list
+	tp = [] # Holds the transposed matrix
+	n = len(matrix[0])
+	m = len(matrix)
+	for column in range(n):
+		column_to_row_matrix = []
+		for row in range(m):
+			column_to_row_matrix.append(matrix[row][column])
+		tp.append(column_to_row_matrix)
+	return tp
+```
+
+# Almost palindrome
+```python
+def is_almost_palindrome(word):
+	for i in range(len(word)):
+		w2 = word[:i] + word[i+1:]
+		if w2 == w2[::-1]:
+			return True
+	return False
+
+# Lets walk through an example here
+# Lets say the example word is sirs -> Should be true as a palindrom would be sis and srs if we remove the r
+# The idea is to remove a character and see if the word is a palindrome
+word = 'sirs'
+# In the for loop we create a new temporary word called w2 to create a string with a missing character
+When i = 0,
+w2 = word[:i]->'' + word[i+1:]->'irs' -> This gives 'irs'
+# That would be a no so it does not pass the if check
+# Lets check the next case
+When i = 1,
+w2 = word[:i]->'s' + word[i+1:]->'rs' -> This gives 'srs'
+# This would pass the if check so the code would return True
+# If the entire for loop is done and we still cannot find a palindrome
+# Then the code should return False hence the last line of the code
 ```
