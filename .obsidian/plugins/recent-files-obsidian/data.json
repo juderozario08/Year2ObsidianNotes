@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "CPS 109 List",
-      "path": "CPS 109 List.md"
+      "basename": "Trees",
+      "path": "CPS 305/Trees.md"
     },
     {
-      "basename": "Data Structure",
-      "path": "CPS 305/Data Structure.md"
-    },
-    {
-      "basename": "Personal Practice",
-      "path": "CPS 305/Personal Practice.md"
+      "basename": "Key Value Pairs (Hashtables)",
+      "path": "CPS 305/Key Value Pairs (Hashtables).md"
     },
     {
       "basename": "Search and Sort",
       "path": "CPS 305/Search and Sort.md"
     },
     {
+      "basename": "Heap",
+      "path": "CPS 305/Heap.md"
+    },
+    {
+      "basename": "Data Structure",
+      "path": "CPS 305/Data Structure.md"
+    },
+    {
       "basename": "LISP Crash Course",
       "path": "CPS 305/LISP Crash Course.md"
+    },
+    {
+      "basename": "Personal Practice",
+      "path": "CPS 305/Personal Practice.md"
+    },
+    {
+      "basename": "CPS109 List",
+      "path": "CPS109 List.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Courses 2nd Semester",
+      "path": "Courses 2nd Semester.md"
     },
     {
       "basename": "C Notes",
@@ -34,7 +54,7 @@
     },
     {
       "basename": "context",
-      "path": "CPS393/context.mdb"
+      "path": "CPS393/.space/context.mdb"
     },
     {
       "basename": "Pasted image 20231023152402",
@@ -79,18 +99,6 @@
     {
       "basename": "Week 5",
       "path": "CPS 305/Week 5.md"
-    },
-    {
-      "basename": "Descriptive Statistics",
-      "path": "CMTH 380/Descriptive Statistics.md"
-    },
-    {
-      "basename": "CMTH 380",
-      "path": "CMTH 380/CMTH 380.md"
-    },
-    {
-      "basename": "context",
-      "path": "CMTH 380/context.mdb"
     }
   ],
   "omittedPaths": [],

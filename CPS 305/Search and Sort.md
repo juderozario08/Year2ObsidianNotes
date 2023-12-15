@@ -160,7 +160,7 @@ else not found
 	- Therefore, nlogn operations. Merge sort is O(nlogn).
 ```lisp
 (defun merge-sort (vec op)
-	(if (null (cdr list))
+	(if (null vec) vec
 		(let ((half (floor (length list) 2)))
 			(merge-lists (merge-sort (subseq list 0 half) op)
 						 (merge-sort (subseq list half) comp)

@@ -1,5 +1,15 @@
 - Function calls
 - Arithmetic operations like  + - // / % * ** ()
+# Primitive Data Types and Objects - Built In Data Types
+```python
+str -> String (Primitive)(Immutable)
+int -> Integer (Primitive) (Immutable)
+list -> List (Object) (Mutable)
+tuple -> Tuples (Object) (Immutable)
+dict -> Dictionary (Object) (Mutable)
+float -> Floats (Primitive) (Immutable)
+bool -> Boolean (Primitive) (Immutable)
+```
 - # Remember that Strings and Tuples are immutable but lists aren't
 - Remember these built in functions:
 ```python
@@ -214,7 +224,7 @@ print({1,3,2} | {5,1,2}) -> this prints {1,2,3,5} (order may not be the same)
 # & this also works as the intersection symbol
 print({1,3,2} & {5,1,2}) -> this prints {1,2} (order may not be the same)
 ```
-
+![[Pasted image 20231210104847.png]]
 # Dictionaries
 - Dictionaries are data types that have a **key** and a **value**
 	- **Key** works as the *index* - **Can be any data type**
@@ -242,15 +252,6 @@ print(dct.items()) -> Prints [('name', 'Sara'), ('age', 19), ('bf', 'Jude'), ('s
 dct.pop(key) -> Gets rid of a key and returns its value
 print(dct.pop('school')) -> Prints 'TMU'
 ```
-# Note: Dictionaries and Sets are also mutable
-# Set Function
-- **This will remove all duplicates from the list**
-```python
-lst = [1, 3, 3, 5, 18]
-lst = list(set(lst))
-print(lst) -> This prints [1, 18, 3, 5]
-```
-# Note that this won't work if you need the list in a certain order as it randomizes the list.
 # Tips - Based on Questions
 - Always double check what data type you are working with
 - When using for loops, make sure you know whether you are working with indexes or values
@@ -421,8 +422,6 @@ while i < len(list):
 4
 5
 ```
-
-
 # This is when to use for loop or while loop
 ![[Pasted image 20231023152402.png]]
 - Writing **else** after a loop
@@ -441,21 +440,6 @@ random.randint(1, 5) -> This will generate a random integer between 1 to 5 both 
 random.random() -> This will generate a random value between 0 to 1 without including one and will include decimals
 ```
 
-# Bisection Search (Memorize)
-```python
-# This is a basic square root function
-x = number
-low = 0
-high = x
-eps = 0.001 # Delta Value
-guess = (low + high)/2
-while abs(guess ** 2 - x) > eps:
-	if guess**2 > x:
-		high = guess
-	else:
-		low = guess
-	guess = (low + high)/2
-```
 - A test question would be to check if your string or list given is a palindrome
 ```python
 # Simplest way to solve that is checking if the forward is the same as the backward
@@ -505,29 +489,34 @@ print(spacer.join(string)) -> Prints t, w, o, t, h, r, e, e, o, n, e
 	- ***Reading*** means read every line from a file
 	- ***Writing*** means rewrite the whole file 
 	- ***Appending*** means writing to the bottom of the file without changing anything above
-- Best practice for opening a file is this
+	- **(RAW)**
 ```python
-with open("filename", "choose one of rwa") as file ('''file here is a variable'''):
+# Best practice for opening a file is this
+with open("filename", "choose one of raw") as file ('''file here is a variable'''):
 	do something here
-```
-- Based on the code above, once everything under that *with open* line is complete, the file automatically closes
-- A basic way to getting a filename would be to do this
-```python
+# That method closes the file automatically
+
+# Another method of opening a file is 
+file = open("filename", "r/a/w")
+# But while doing this, also make sure that you are closing the file
+file.close() -> This method will close the file
+
 # Assuming your file is in the same file is as this python project
-with open('filename','r') as f
+with open('filename','r/a/w') as f
 # If the file is inside another folder thats still within the same python project
 # Then do this
-with open('foldername/filename', 'r') as f
-```
-# Some basic File I/O Functions
-```python
+with open('foldername/filename', 'r/a/w') as f
 # For the following functions, assume that we are using f as the variable for our file
-f.readline() -> This just reads a line from a file
-f.read() -> Returns the entire file as a string
-f.seek(startingLine, '''stoppingline is optional''') -> Sets the file to which line you are supposed to read ('''A little bit more technical I will show on call''')
-f.readlines() -> Returns a list of string with each line being an element inside the list
-f.write() -> 
-
+f.readline() -> Reads a line from a file
+f.read(number of characters) -> Reads either whole file(default) or the number of characters mentioned
+f.read(number) -> Reads the number of characters specified
+f.seek(number of characters, mode)-> If you want to move back or forward a few characters
+f.readlines() -> Returns all the lines in the file as a list of strings
+f.write(string to write) -> Write to a file (make sure to include the "\n" if you want a new line)
+f.close() -> Close a file
+f.name -> Gives the name of the file
+f.closed -> Tells if the file is closed or not
+f.mode -> Tells if the file is in Read Write or Append mode (RAW)
 # Example File: File name = 'text.txt'
 '''My name is Jude
    Her name is Sara
@@ -543,7 +532,8 @@ def readFile():
 		f.seek(1) -> Sets the start position of the file to line 1 again
 		print(f.readline()) -> Prints 'Her name is Sara'
 		print(f.readline()) -> Prints 'And I really really really love Sara'
-		print(f.readlines()) -> Prints ['I love her a lot', 'She means the world to me'] # Notice how this only has all the files that were not read already
+		print(f.readlines()) -> Prints ['I love her a lot', 'She means the world to me'] 
+		# Notice how this only has all the files that were not read already
 ```
 # Recursion Tips to Remember
 - Always contains a base case
@@ -571,8 +561,8 @@ def reverse_list(items):
 	if items == []:
 		return items
 	return [items[-1]] + reverse_list(items[:-1])
-
 print(reverse_list([1,3,2,4]))
+
 # This is the walkthrough for how the recursion is being called
 [4] + reverse_list([1,3,2])
       [2] + reverse_list([1,3])
@@ -581,9 +571,273 @@ print(reverse_list([1,3,2,4]))
                         + []
 [4]+[2]+[3]+[1]+[] # This is how the recursive steps add
 [4,2,3,1] -> # This is the result
+
+# Another way of solving it is this (writing the add part after the recursive call)
+def reverse_list(items):
+	if items == []:
+		return items
+	return reverse_items(items[1:]) + [items[0]]
+
+# This is the walkthrough for the recursion is happening here
+reverse_items([1,3,2,4])
+	reverse_items([3,2,4])
+		reverse_items([2,4])
+			reverse_items([4])
+				reverse_items([])
+				reverse_items([])->[]
+			reverse_items([4])->[4] + 
+		reverse_items([2,4])->[2] + 
+	reverse_items([3,2,4])->[3] + 
+reverse_items([1,3,2,4])->[1]
+[]+[4]+[2]+[3]+[1] = [4,2,3,1]
 ```
-# Practices
-# Transposing a matrix
+
+# Exception Handling and Assertion
+- These are some of the exceptions we have seen so far
+	- **StopIteration** -> *When we are out of things to iterate over*
+	- **NameError** -> *If a variable is not defined*
+	- **TypeError** -> *Wrong type given*
+	- **IndexError** -> *Index out of range or not existing*
+	- **ValueError** -> *Couldn't Produce a proper value*
+	- **ZeroDivisionError** -> *When you divide by zero*
+	- **Exception as e** -> *Takes care of all other cases* 
+- An exception is NOT a return value. 
+	- We can either raise or return or just do a print statement
+	- Raise is like return, you can only do it once in a function
+- Try except makes sure the program does not crash 
+- You can handle multiple exceptions
+- When to raise?
+	- You raise when your function does not meet the post-conditions(function promises to achieve and guaranteed to have happened once the function is executed)
+```python
+# Printing the strings are optional
+try:
+	do something
+except ExceptionName:
+	return ExceptionName("Message to print")
+except Exception as e:
+	return e("Something went wrong")
+raise ExceptionName("Print Something") -> Raise is like returns but it returns an error instead
+```
+- **Assertion**
+	- Do nothing if a condition is true
+	- Throw assertion error if the condition is false
+	- Auto grader uses assertion
+```python
+x = 42
+assert(x==42)-> Does nothing
+assert(x==12)-> Throws assertion error
+```
+
+# Memory
+- Within the **sys** module
+```python
+import sys
+sys.getrefcount(variable) -> The number of names referring to that object
+sys.getsizeof(variable) -> How much space its taking
+```
+- Slack Space
+	- Dictionaries, lists, sets and more maintain slack space
+	- It means they are stored using more memory than needed
+	- This anticipates the growth of the structure making it much faster
+
+# Search and Sort (Memorise These)
+- **Bisection Search - Big-O(log n)**
+```python
+# This is a demonstration of the bisection search as a function
+# Finding the square of the number and use either the epsilon given by the user or default
+def bisersearch(number, eps=0.001):
+	high = number
+	low = 0
+	guess = (low + high)/2
+	while abs(guess**2 - number) > eps:
+		if guess**2 > number:
+			high = guess
+		else:
+			low = guess
+		guess = (low + high)/2
+
+# This is a basic square root using a while loop in a regular function
+x = number
+low = 0
+high = x
+eps = 0.001 # Delta Value
+guess = (low + high)/2
+while abs(guess ** 2 - x) > eps:
+	if guess**2 > x:
+		high = guess
+	else:
+		low = guess
+	guess = (low + high)/2
+```
+
+- **Selection Sort - Big-O(n^2)**
+	- [Demonstration of Selection Sort Video, click here](https://www.youtube.com/watch?v=EwjnF7rFLns&ab_channel=BroCode)
+	- [Demonstration of python code](https://www.youtube.com/watch?v=kZH0vWXs_Bk&ab_channel=Amigoscode)
+```python
+def selection_sort(items):
+	for i in range(len(items)): # Go through the list
+		best_index = i # First store the current index
+		for j in range(i+1, len(items)): # This loop finds the best after the current index
+			if items[j] < items[best_index]: # < if ascending order and > if descending order
+				best_index = j 
+		temp = items[best_index]           # { These lines can also be written as
+		items[best_index] = items[i]       #  items[i], items[j] = items[j], items[i]
+		items[i] = temp                    # }
+	return items
+```
+- **Insertion Sort**
+	- [Demonstration of Insertion Sort Video](https://www.youtube.com/watch?v=8mJ-OhcfpYg&ab_channel=BroCode)
+	- [Demonstration of python code](https://www.youtube.com/results?search_query=insertion+sort+pythobn)
+```python
+def insertion_sort(items):
+	for i in range(1, len(items)): # Start from index 1
+		current = items[i] # Save the current value 
+		current_in = i # Save the current index
+	# Keep swapping back until we reach the beginning of the list or encounter a value smaller 
+	# than the current value
+	# Use < for ascending and use > for descending order between current '<>' items[current_in - 1]
+		while current_in > 0 and current < items[current_in-1]: 
+			items[current_in] = items[current_in - 1]
+			current_in -= 1
+		items[current_in] = current
+	return items
+```
+- **Interpolation Search or Binary Search - Big-O(log n)**
+	- Similar to bisection search and is used for binary search
+		- **Divide and Conquer algorithm** (cuts the problem in halves every time)
+		- [Demonstration Video](https://www.youtube.com/watch?v=xrMppTpoqdw&ab_channel=BroCode)
+		- [Code Video](https://www.youtube.com/watch?v=R_wDA-PmGE4&ab_channel=FelixTechTips)
+```python
+def binary_search(items, key):
+	low = 0 
+	high = len(items)-1
+	while lo <= high: # This is the condition for binary search to continue happening
+		middle = (high + low)//2 # Since you are working with indexes, you have to do floor division
+		if key < items[middle]: # If key is smaller look towards the left side
+			high = middle-1
+		elif key > items[middle] # If key is larger look towards the right side
+			low = middle+1
+		else: # If not those 2 cases then that means its equal so return the value
+			return middle
+	return None # If item not in list then return None
+```
+- **Sequential search Big-O(n)**
+	- Just going through one element at a time and check if we have found the desired value
+	- Regular for loop on a list
+# Objects and Classes
+- Classes are seen as a blueprint and Objects are seen as the result of that blueprint
+	- For example if the car blueprint is a class
+	- And the car itself is the object
+- Almost everything in python is an object
+- Classes allow us to encapsulate state (value) and behaviour (methods)
+- Objects can have values and methods
+- Why Classes?
+	- Helps you write cleaner code where properties and behaviour of a certain thing are kept inside a class
+		- For example: A class of cards
+- Defining a class
+```python
+class Card:
+	__vals = {'Ace': 1, 'Two': 2, 'Three': 3, ...}
+	def __init__ (self, rank, suit): # This method is called automatically when a class is created
+		self.suit = suit
+		self.rank = rank
+	# This method is called automaticall when the print statement is called on the class
+	def __str__ (self): 
+		return f"{self.rank} of {self.suit}"
+	# Syntax for calling the variables inside if the variable start with the __ otherwise you have 
+	# to call it like self.variableName
+	def get_value (self): # This function returns the value of a card
+		return Card.__vals[self.rank] 
+	def outranks (self, other): # The other keyword here also represents and card class
+		if other == None:
+			return True
+		return self.get_value() > other.get_value()
+```
+- **Access Control**
+```python
+# __ before a variable name means its hidden from the outside world (mangling)
+# It is not private but just harder to get to
+```
+# Concept Questions
+-  General info about iterators and iterables
+	- **range() is an iterable (also called a lazy list or lazy sequence)**
+	- **lazy** is a term that refers to not doing something until explicitly needed/requested.
+	- **list is an iterable**
+	- **files are an iterable**
+	- **tuples are an iterable**
+	- **strings are an iterable**
+	- **Dictionaries are an iterable**
+	- **iterators traverse over iterables**
+	- **get an iterator from any iterable object using the iter() function**
+	- **use the next() function to go through the elements one at a time**
+	- **calling next() and at the end of an iterable will throw the StopIteration Error** (functions like file.readline() dont have such issues)
+	- **iterators added with range shows their true power (because the values does not have to stay loaded into memory)**
+	- *DOWNSIDES of ITERATORS*
+		- *no indexing or slicing*
+		- *no rewinding or going back*
+		- *strictly goes in sequential order*
+		- *you need to produce the 9th element before seeing the 10th*
+		- *len() function cannot be used*
+```python
+# A simlpe way to print everything from a file is 
+for line in file:
+	print(line)
+```
+- General info about iterators and generators
+	- **Generators are used to produce custom value in a lazy fashion (for example: Fibonacci, squares or primes)**
+	- **Generators are just functions that act like a lazy sequence**
+	- **A generator is a function that uses the keyword yield instead of return to produce a result.**
+		- each yielded value is the *next* value produced by the iterator
+	- **A generator is an iterator**
+	- **A generator's namespace and execution state are saved between each yield call**
+	- **Returning within a generator function is also legal but it is based on if there are certain conditions that a program is telling you to implement**
+	- **A stream of objects can be arbitrarily long, or even infinite and because of iterators and generators, we are still able to read through them in the computer without loading all of it into memory**
+- *Simple generator*
+```python
+# This program generates all odd numbers upto 10
+def odd_nums(limit):
+	num = 1
+	while num <= limit:
+		yield num
+		num += 2
+for n in odd_nums(10):
+	print(n)
+```
+- **What is slack space**
+	- *Almost all data types in python use slack space*
+	- *Strings are one of the only one that increases every time a new character is added so its not a part of slack space*
+	- *It means they are stored using more memory than needed*
+	- *This anticipates the growth of the structure making it much faster*
+- **Big-O notation**
+![[Pasted image 20231210101749.png]]
+![[Pasted image 20231210102000.png]]
+- Also make sure to check out the **objects and classes and files** section to check for some more conceptual questions [**sorry I could not finish writing it all here :(** ]
+# General Practice Questions
+- **Almost palindrome**
+```python
+def is_almost_palindrome(word):
+	for i in range(len(word)):
+		w2 = word[:i] + word[i+1:]
+		if w2 == w2[::-1]:
+			return True
+	return False
+
+# Lets walk through an example here
+# Lets say the example word is sirs -> Should be true as a palindrom would be sis and srs if we remove the r
+# The idea is to remove a character and see if the word is a palindrome
+word = 'sirs'
+# In the for loop we create a new temporary word called w2 to create a string with a missing character
+When i = 0,
+w2 = word[:i]->'' + word[i+1:]->'irs' -> This gives 'irs'
+# That would be a no so it does not pass the if check
+# Lets check the next case
+When i = 1,
+w2 = word[:i]->'s' + word[i+1:]->'rs' -> This gives 'srs'
+# This would pass the if check so the code would return True
+# If the entire for loop is done and we still cannot find a palindrome
+# Then the code should return False hence the last line of the code
+```
+-  **Transposing a matrix**
 ```python
 # [
 #. [1, 0, 0, 0, 0],       
@@ -608,29 +862,4 @@ def transpose(matrix): -> # Recall that a matrix is a 2D list
 			column_to_row_matrix.append(matrix[row][column])
 		tp.append(column_to_row_matrix)
 	return tp
-```
-
-# Almost palindrome
-```python
-def is_almost_palindrome(word):
-	for i in range(len(word)):
-		w2 = word[:i] + word[i+1:]
-		if w2 == w2[::-1]:
-			return True
-	return False
-
-# Lets walk through an example here
-# Lets say the example word is sirs -> Should be true as a palindrom would be sis and srs if we remove the r
-# The idea is to remove a character and see if the word is a palindrome
-word = 'sirs'
-# In the for loop we create a new temporary word called w2 to create a string with a missing character
-When i = 0,
-w2 = word[:i]->'' + word[i+1:]->'irs' -> This gives 'irs'
-# That would be a no so it does not pass the if check
-# Lets check the next case
-When i = 1,
-w2 = word[:i]->'s' + word[i+1:]->'rs' -> This gives 'srs'
-# This would pass the if check so the code would return True
-# If the entire for loop is done and we still cannot find a palindrome
-# Then the code should return False hence the last line of the code
 ```

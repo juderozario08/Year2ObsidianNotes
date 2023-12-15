@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "20100c42a33aa07d",
+        "id": "56e442c61a7ff70a",
         "type": "tabs",
         "children": [
           {
-            "id": "6acc217b7706384f",
+            "id": "33909d748b70f736",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPS 109 List.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,7 +70,7 @@
             }
           },
           {
-            "id": "843e26a06a918fac",
+            "id": "7b8dd7176a5ceab2",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 109 List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 109 List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,16 +135,6 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CPS 109 List.md"
-              }
-            }
-          },
-          {
-            "id": "57230331e7185fab",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
               "state": {}
             }
           },
@@ -169,9 +153,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "10b979326beabbcd",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -187,38 +179,52 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "3d-graph:3D Graph": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "6acc217b7706384f",
+  "active": "33909d748b70f736",
   "lastOpenFiles": [
-    "CPS 109 List.md",
-    "CPS 305/Data Structure.md",
-    "Pasted image 20231112154436.png",
-    "CPS 305/Personal Practice.md",
+    "CPS 305/Trees.md",
+    "CPS 305/Key Value Pairs (Hashtables).md",
     "CPS 305/Search and Sort.md",
-    "CPS 305/Recursion.md",
+    "CPS 305/Heap.md",
+    "Pasted image 20231210214549.png",
+    "Pasted image 20231210211323.png",
+    "Pasted image 20231210173555.png",
+    "Pasted image 20231210133833.png",
+    "Pasted image 20231210124806.png",
+    "CPS 305/Data Structure.md",
     "CPS 305/LISP Crash Course.md",
+    "CPS 305/Personal Practice.md",
+    "CPS109 List.md",
+    "Pasted image 20231210104847.png",
+    "Pasted image 20231210104845.png",
+    "Pasted image 20231210104838.png",
+    "Pasted image 20231210102000.png",
+    "Pasted image 20231210101749.png",
+    "Untitled.md",
+    "context.mdb",
+    "CPS 305/context.mdb",
+    "CPS393/context.mdb",
+    "Spaces/Home/Home.md",
+    "Spaces/Home",
+    "Spaces",
+    "CMTH 380/Descriptive Statistics.md",
+    "CMTH 380/CMTH 380.md",
+    "CMTH 380",
+    "Courses 2nd Semester.md",
+    ".space/context.mdb",
+    "CPS 305/Recursion.md",
     "CPS393/C Notes.md",
-    "Pasted image 20231101205642.png",
     "CPS393/Commands.md",
     "CPS393/CPS393.md",
-    "CPS393/context.mdb",
-    "Pasted image 20231023152402.png",
-    "Pasted image 20231013212434.png",
-    "Pasted image 20231013192129.png",
-    "Pasted image 20231013191145.png",
-    "Pasted image 20231013191119.png",
-    "Pasted image 20231013191116.png",
-    "Pasted image 20231013191004.png",
-    "Pasted image 20231012192028.png",
+    "CPS393/.space/context.mdb",
     "Untitled.canvas",
-    "Untitled.md",
     "Computer Science.md",
     "CPS 305/practice/test.lisp",
     "CPS 305/practice",
@@ -227,22 +233,9 @@
     "CPS 305/Week 5.md",
     "CMN Presentation Script.md",
     "Table of Contents/Search and Sort.md",
-    "CPS 305/context.mdb",
-    "CPS 305",
     "Table of Contents/Data Structure.md",
     "Table of Contents/Personal Practice.md",
     "Table of Contents/LISP Crash Course.md",
-    "Table of Contents/Table of Contents.md",
-    "Table of Contents/ToC.md",
-    "Table of Contents/Midterm Study Stuff.md",
-    "Table of Contents/context.mdb",
-    "Table of Contents/Week 5.md",
-    "CPS305/Week 3.md",
-    "CMTH 380/Descriptive Statistics.md",
-    "Excalidraw",
-    "images",
-    "untitled folder",
-    "Untitled 1.canvas",
-    ".md"
+    "Untitled 1.canvas"
   ]
 }

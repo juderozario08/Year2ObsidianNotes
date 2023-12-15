@@ -15,7 +15,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "root",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "spacesCompactMode": false,
@@ -75,7 +75,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700447183389,
+  "spacesAutoBackupLast": 1702273579286,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
@@ -84,5 +84,32 @@
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": true,
   "indexSVG": false,
-  "readableLineWidth": true
+  "readableLineWidth": true,
+  "newNotePlaceholder": "Untitled",
+  "spacesMDBInHidden": true,
+  "spaceViewEnabled": true,
+  "folderFrameFile": "frames",
+  "spacesFolder": "Spaces",
+  "waypoints": [
+    "Spaces/Home",
+    "/",
+    "spaces://$tags"
+  ],
+  "rootSpaces": [
+    "Spaces/Home"
+  ],
+  "fmKeyContexts": "_contexts",
+  "fmKeySort": "_sort",
+  "fmKeyFilter": "_filters",
+  "fmKeyLinks": "_links",
+  "quickFrames": [],
+  "autoAddContextsToSubtags": true,
+  "autoMigration08": true,
+  "releaseNotesPrompt": 0.804,
+  "enableDefaultSpaces": true,
+  "enableTagSpaces": true,
+  "enableHomeSpace": true,
+  "showSpacePinIcon": true,
+  "minimalFix": false,
+  "experimental": false
 }

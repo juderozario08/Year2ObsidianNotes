@@ -1,4 +1,6 @@
 {
   "palette": [],
-  "fileColors": []
+  "fileColors": [],
+  "cascadeColors": false,
+  "colorBackground": false
 }
