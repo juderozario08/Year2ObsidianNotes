@@ -11,8 +11,13 @@
             "id": "33909d748b70f736",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CPS 209/Class.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPS 209/Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CPS 209/Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CPS 209/Class.md"
+              }
             }
           },
           {
@@ -189,6 +197,13 @@
   },
   "active": "33909d748b70f736",
   "lastOpenFiles": [
+    "CPS 209/Loops.md",
+    "CPS 209/Data Types and Functions.md",
+    "CPS 209/Data Structures.md",
+    "CPS 209/Conditional Statements.md",
+    "CPS 209/Inheritance and Abstraction.md",
+    "CPS 209/Class.md",
+    "CPS 209",
     "CPS 305/Trees.md",
     "CPS 305/Key Value Pairs (Hashtables).md",
     "CPS 305/Search and Sort.md",
@@ -227,15 +242,8 @@
     "Untitled.canvas",
     "Computer Science.md",
     "CPS 305/practice/test.lisp",
-    "CPS 305/practice",
     "CPS 305/Midterm Study Stuff.md",
     "CPS 305/Table of Contents.md",
-    "CPS 305/Week 5.md",
-    "CMN Presentation Script.md",
-    "Table of Contents/Search and Sort.md",
-    "Table of Contents/Data Structure.md",
-    "Table of Contents/Personal Practice.md",
-    "Table of Contents/LISP Crash Course.md",
     "Untitled 1.canvas"
   ]
 }

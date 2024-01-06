@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Class",
+      "path": "CPS 209/Class.md"
+    },
+    {
+      "basename": "Loops",
+      "path": "CPS 209/Loops.md"
+    },
+    {
+      "basename": "Data Types and Functions",
+      "path": "CPS 209/Data Types and Functions.md"
+    },
+    {
+      "basename": "Data Structures",
+      "path": "CPS 209/Data Structures.md"
+    },
+    {
+      "basename": "Conditional Statements",
+      "path": "CPS 209/Conditional Statements.md"
+    },
+    {
+      "basename": "Inheritance and Abstraction",
+      "path": "CPS 209/Inheritance and Abstraction.md"
+    },
+    {
       "basename": "Trees",
       "path": "CPS 305/Trees.md"
     },
