@@ -16,11 +16,9 @@ Math.log(number) -> // Natural log i.e ln(number) make sure that the number is g
 ## Integer Class
 - The **Integer** class is a class that consists of a bunch of important methods that can be helpful for working with integers
 ```java
-
 /* This function converts a string to a number if and only if the entire string is a number
 This is equivalent to writing int(string) in python */
 Integer.parseInt(string) 
-
 ```
 
 ## String Class
