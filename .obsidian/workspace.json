@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "2c6057764acfee12",
+    "type": "split",
+    "children": [
+      {
+        "id": "750fc6f419ac2dca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78d536b77e602191",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPS 209/Class Methods.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bf36c7b747b2191",
+    "type": "split",
+    "children": [
+      {
+        "id": "366336b5503891e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "319c3ddbe27bc856",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "278e2473a4df1383",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d82b8ab054abcc6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ad2e38abbde8da4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "69efe937c53212ab",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9828ea243bfe5875",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.50043487548828,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6aceda436b1906a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "febcdf7f7335cdd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7520d2317c9184bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPS 209/Class Methods.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1453a3f5d1eb8b26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPS 209/Class Methods.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "069a9784e4b9eb1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ea45085238542f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPS 209/Class Methods.md"
+              }
+            }
+          },
+          {
+            "id": "9345371b0d984409",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "761a82e95908f0b4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "76d9972ae0d60502",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create loom": false,
+      "3d-graph:3D Graph": false
+    }
+  },
+  "active": "78d536b77e602191",
+  "lastOpenFiles": [
+    "CPS 209/Chapter 3.md",
+    "CPS 209/Chapter 2.md",
+    "CPS 209/Java Crash Course.md",
+    "CPS 209/Data Structures.md",
+    "CPS 209/Class, Inheritance and Abstraction.md",
+    "CPS 209/Class Methods.md",
+    "CPS 590/Chapter 2.md",
+    "CPS 590/Chapter 1.md",
+    "CCHY583/Chapter 2 - Carbon Based Fuels.md",
+    "CCHY583/context.mdb",
+    "Pasted image 20240130115430.png",
+    "Sem1Notes/CPS 305/LISP Crash Course.md",
+    "Sem1Notes/CPS 305/Key Value Pairs (Hashtables).md",
+    "Sem1Notes/CPS 305/Heap.md",
+    "Sem1Notes/CPS 305/Data Structure.md",
+    "CPS109 List.md",
+    "CPS109 List.pdf",
+    "Pasted image 20240130105231.png",
+    "Pasted image 20240129132802.png",
+    "Pasted image 20240129130917.png",
+    "Pasted image 20240129130906.png",
+    "Pasted image 20240129125017.png",
+    "Pasted image 20240129124457.png",
+    "Pasted image 20240129124435.png",
+    "Pasted image 20240129124421.png",
+    "Pasted image 20240129124319.png",
+    "CCHY583/Chapter 1 - Introduction, Energy Measurement Units.md",
+    "Excalidraw/Drawing 2024-01-25 23.10.54.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-22 12.24.54.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2024-01-24 16.33.20.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-24 16.22.09.excalidraw.md",
+    "Untitled.md",
+    "export/Chapter 1/plugin/chalkboard/README.md",
+    "export/Chapter 1/plugin/chalkboard/_style.css",
+    "export/Chapter 1/plugin/chalkboard/style.css",
+    "export/Chapter 1/plugin/chalkboard/plugin.js",
+    "export/Chapter 1/plugin/chalkboard/plugin (copy).js",
+    "export/Chapter 1/plugin/chalkboard/img",
+    "export/Chapter 1/plugin/chalkboard",
+    "export/Chapter 1/plugin/chart/chart.min.js",
+    "export/Chapter 1/plugin/chart/README.md",
+    "export/Chapter 1/plugin/customcontrols/README.md",
+    "export/Chapter 1/plugin/menu/CONTRIBUTING.md",
+    "export/Chapter 1/plugin/menu/README.md",
+    "Untitled.canvas",
+    "CPS 209/Classes and Its Methods.md",
+    "Untitled 1.canvas"
+  ]
+}
