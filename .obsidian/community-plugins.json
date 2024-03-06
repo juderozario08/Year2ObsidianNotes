@@ -26,5 +26,6 @@
   "colored-text",
   "obsidian-file-color",
   "obsidian-csv-table",
-  "notion-like-tables"
+  "notion-like-tables",
+  "obsidian-vimrc-support"
 ]

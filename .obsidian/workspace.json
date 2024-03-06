@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPS 209/Class Methods.md",
+                "file": "CPS 590/Chapter 3.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 209/Class Methods.md",
+                "file": "CPS 590/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 209/Class Methods.md",
+                "file": "CPS 590/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS 209/Class Methods.md"
+                "file": "CPS 590/Chapter 3.md"
               }
             }
           },
@@ -206,8 +206,14 @@
   },
   "active": "78d536b77e602191",
   "lastOpenFiles": [
-    "CPS 209/Chapter 3.md",
+    "Pasted image 20240305201120.png",
+    "Pasted image 20240305192442.png",
     "CPS 209/Chapter 2.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2024-03-02 21.54.20.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-20 22.03.39.excalidraw.md",
+    "CPS 590/Chapter 3.md",
+    "CPS 209/Chapter 3.md",
     "CPS 209/Java Crash Course.md",
     "CPS 209/Data Structures.md",
     "CPS 209/Class, Inheritance and Abstraction.md",
@@ -231,7 +237,6 @@
     "Pasted image 20240129124457.png",
     "Pasted image 20240129124435.png",
     "Pasted image 20240129124421.png",
-    "Pasted image 20240129124319.png",
     "CCHY583/Chapter 1 - Introduction, Energy Measurement Units.md",
     "Excalidraw/Drawing 2024-01-25 23.10.54.excalidraw.md",
     "Excalidraw/Drawing 2024-01-22 12.24.54.excalidraw.md",
@@ -248,11 +253,6 @@
     "export/Chapter 1/plugin/chalkboard",
     "export/Chapter 1/plugin/chart/chart.min.js",
     "export/Chapter 1/plugin/chart/README.md",
-    "export/Chapter 1/plugin/customcontrols/README.md",
-    "export/Chapter 1/plugin/menu/CONTRIBUTING.md",
-    "export/Chapter 1/plugin/menu/README.md",
-    "Untitled.canvas",
-    "CPS 209/Classes and Its Methods.md",
     "Untitled 1.canvas"
   ]
 }
