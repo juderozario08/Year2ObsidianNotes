@@ -24,7 +24,7 @@ Integer.parseInt(string)
 ## String Class
 - This is the String datatype which is also a class and that's why it has so many methods
 - Please try each of these methods out in your IDE so that you can see how it works. You would remember them the best that way
-- Use this link to access more details and examples[Java String Methods | Programiz](https://www.programiz.com/java-programming/library/string)
+- Use this link to access more details and examples [Java String Methods | Programiz](https://www.programiz.com/java-programming/library/string)
 ```java
 String str1 = "I Love Sara";
 String str2 = "i love sara";
