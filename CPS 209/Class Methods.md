@@ -19,17 +19,15 @@ Math.log(number) -> // Natural log i.e ln(number) make sure that the number is g
 ## Integer Class
 - The **Integer** class is a class that consists of a bunch of important methods that can be helpful for working with integers
 ```java
-
 /* This function converts a string to a number if and only if the entire string is a number
 This is equivalent to writing int(string) in python */
 Integer.parseInt(string) 
-
 ```
 
 ## String Class
 - This is the String datatype which is also a class and that's why it has so many methods
 - Please try each of these methods out in your IDE so that you can see how it works. You would remember them the best that way
-- Use this link to access more details and examples[Java String Methods | Programiz](https://www.programiz.com/java-programming/library/string)
+- Use this link to access more details and examples [Java String Methods | Programiz](https://www.programiz.com/java-programming/library/string)
 ```java
 String str1 = "I Love Sara";
 String str2 = "i love sara";
