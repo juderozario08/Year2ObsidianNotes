@@ -27,5 +27,10 @@
   "obsidian-file-color",
   "obsidian-csv-table",
   "notion-like-tables",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "vim-toggle",
+  "obsidian-relative-line-numbers",
+  "obsidian-code-block-enhancer",
+  "obsidian-image-toolkit",
+  "image-converter"
 ]
