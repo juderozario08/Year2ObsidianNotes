@@ -93,7 +93,7 @@ fork() -> Parent Process has a pid > 0. Child process has a pid = 0. Failure has
 ![[Chapter 3-20240309185712356.webp|381]]
 ## Process States for Trace
 
-![[Chapter 3-20240309190331233.webp|700]]
+![[Chapter 3-20240309190331233.webp|600]]
 ## Using Two Queues
 ![[Chapter 3-20240309191114551.webp]]
 - Dispatcher now only works with programs that are ready to run
@@ -114,14 +114,35 @@ fork() -> Parent Process has a pid > 0. Child process has a pid = 0. Failure has
 	- if there are no processes on the ready queue, it takes some of these processes and writes them to disk to free some memory to load more processes
 ## One Suspend State
 
+![[Chapter 3-20240309203847992.webp|500]]
+- When a program is in blocked for too long, it is suspended and written to disk
+- If the event occurs and there is free space is memory then the process is activated again and put in the Ready queue
+- Downside is that now there are processes in disk that are blocked but also processes that are ready to go but there is not enough space in the memory for it and so the program has to perform a linear search again to see which processes are ready and which ones are still blocked
 ## Two Suspend State
-
+ 
+ ![[Chapter 3-20240309205755572.webp|450]]
+- This introduces an additional Queue for *Blocked Suspended* and *Ready Suspended* separately
+- Whenever an event occurs if the program is blocked and suspended, then it would be put to the ready queue
+- So whenever there is space, the process will be written to memory again from the disk
+- Sometimes the program have a higher order process that needs immediate access so in that case the process goes from *Blocked/Suspend to Blocked* from which it can become immediately ready if needed
+- If the process was running and it needs a lot of memory then it would write a process to disk and free up some memory to use that for the process that requires it. In that case the running process or a ready process goes to Ready/Suspend
+- From *Running to Ready/Suspend* happens when a process is switched with a higher priority process
 ## Characteristics of a Suspended Process
-
+- Processes are not *immediately available for execution*
+- Placed in *suspended state by an agent*: itself, parent or OS
+- May or may not be *waiting on an event*
+- If the agent suspends it then the *agent also has to unsuspend* it 
 ## Reasons for Process Suspension
-
+- *Swapping*: OS needs to release enough memory to make room for another process
+- *Other OS reason*: OS may suspend a process that is suspected of causing a problem
+- *Interactive User Request*: User wishes to suspend execution of a program for purposes of debugging or in connection with the use of resource
+- *Timing*: A periodically executed process that is suspended while waiting for the next interval
+- *Parent Process Request*: Parent process may suspend execution of child process to examine or change the process or for coordinating with other child processes
 ## Processes and Resources
-
+![[Chapter 3-20240309220630714.webp|450]]
+- P1 is currently running and has control over 2 I/O devices
+- P2 is currently blocked and waiting on one of the I/O and is loaded into main memory
+- P3 is suspended as it is already in the main memory
 ## OS Control Tables
 
 ## Typical Elements of a Process Image

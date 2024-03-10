@@ -19,6 +19,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "588bb3b783769c9e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -206,19 +216,20 @@
   },
   "active": "78d536b77e602191",
   "lastOpenFiles": [
+    "Chapter 3-20240309220630714.webp",
+    "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md",
+    "CPS 590/Chapter 3.md",
+    "Chapter 3-20240309205755572.webp",
+    "Chapter 3-20240309203847992.webp",
+    "Chapter 3-20240309203830623.webp",
+    "Chapter 3-20240309203821916.webp",
     "Chapter 3-20240309193545771.webp",
     "Chapter 3-20240309191114551.webp",
     "Chapter 3-20240309190331233.webp",
     "Chapter 3-20240309185712356.webp",
     "process control block.md",
-    "CPS 590/Chapter 3.md",
     "Chapter 3-20240309175252164.webp",
     "Chapter 3-20240309175116488.webp",
-    "Pasted image 20240309174251.png",
-    "Pasted image 20240309173912.png",
-    "Pasted image 20240309173827.png",
-    "Pasted image 20240309173722.png",
-    "Pasted image 20240305201120.png",
     "CPS 209/Chapter 2.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2024-03-02 21.54.20.excalidraw.md",
@@ -245,7 +256,6 @@
     "Excalidraw/Drawing 2024-01-24 16.33.20.excalidraw.md",
     "Excalidraw/Drawing 2024-01-24 16.22.09.excalidraw.md",
     "Untitled.md",
-    "export/Chapter 1/plugin/chalkboard/README.md",
     "export/Chapter 1/plugin/chalkboard/_style.css",
     "export/Chapter 1/plugin/chalkboard/style.css",
     "export/Chapter 1/plugin/chalkboard/plugin.js",
