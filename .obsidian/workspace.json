@@ -21,16 +21,17 @@
             }
           },
           {
-            "id": "588bb3b783769c9e",
+            "id": "5db7a7faa46b0415",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 590/Chapter 3.md",
+                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 590/Chapter 3.md",
+                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS 590/Chapter 3.md"
+                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md"
               }
             }
           },
@@ -214,11 +215,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "78d536b77e602191",
+  "active": "5db7a7faa46b0415",
   "lastOpenFiles": [
+    "Pasted image 20240129130906.png",
+    "Pasted image 20240129132802.png",
+    "Pasted image 20240130115430.png",
+    "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
+    "CPS 590/Chapter 3.md",
+    "CPS 209/Class Methods.md",
+    "CPS 590/Chapter 1.md",
+    "CPS 590/Chapter 2.md",
     "Chapter 3-20240309220630714.webp",
     "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md",
-    "CPS 590/Chapter 3.md",
     "Chapter 3-20240309205755572.webp",
     "Chapter 3-20240309203847992.webp",
     "Chapter 3-20240309203830623.webp",
@@ -226,10 +235,7 @@
     "Chapter 3-20240309193545771.webp",
     "Chapter 3-20240309191114551.webp",
     "Chapter 3-20240309190331233.webp",
-    "Chapter 3-20240309185712356.webp",
     "process control block.md",
-    "Chapter 3-20240309175252164.webp",
-    "Chapter 3-20240309175116488.webp",
     "CPS 209/Chapter 2.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2024-03-02 21.54.20.excalidraw.md",
@@ -238,9 +244,6 @@
     "CPS 209/Java Crash Course.md",
     "CPS 209/Data Structures.md",
     "CPS 209/Class, Inheritance and Abstraction.md",
-    "CPS 209/Class Methods.md",
-    "CPS 590/Chapter 2.md",
-    "CPS 590/Chapter 1.md",
     "CCHY583/Chapter 2 - Carbon Based Fuels.md",
     "CCHY583/context.mdb",
     "Sem1Notes/CPS 305/LISP Crash Course.md",
@@ -254,8 +257,6 @@
     "Excalidraw/Drawing 2024-01-22 12.24.54.excalidraw.md",
     "Excalidraw",
     "Excalidraw/Drawing 2024-01-24 16.33.20.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-24 16.22.09.excalidraw.md",
-    "Untitled.md",
     "export/Chapter 1/plugin/chalkboard/_style.css",
     "export/Chapter 1/plugin/chalkboard/style.css",
     "export/Chapter 1/plugin/chalkboard/plugin.js",
