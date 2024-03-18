@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPS 590/Chapter 4.md",
+                "file": "CPS 590/Chapter 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 264.5
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 590/Chapter 4.md",
+                "file": "CPS 590/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 590/Chapter 4.md",
+                "file": "CPS 590/Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS 590/Chapter 4.md"
+                "file": "CPS 590/Chapter 1.md"
               }
             }
           },
@@ -194,33 +194,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "omnisearch:Omnisearch": false,
-      "notion-like-tables:Create loom": false,
-      "3d-graph:3D Graph": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "3d-graph:3D Graph": false,
+      "notion-like-tables:Create loom": false
     }
   },
   "active": "78d536b77e602191",
   "lastOpenFiles": [
-    "images/Chapter 4-20240318105149346.webp",
-    "Chapter 4-20240318105149346.webp",
-    "CPS109 List.md",
+    "CPS 590/Test 1.pdf",
+    "CPS 590/Practice Midterm 2.pdf",
     "images/IMG_4E16C13ACC21-1.jpeg",
+    "images/Chapter 3-20240309193545771.webp",
+    "images/Chapter 3-20240309191114551.webp",
+    "images/Chapter 3-20240309190331233.webp",
+    "images/Chapter 3-20240309175252164.webp",
+    "images/Chapter 3-20240309175116488.webp",
+    "images/Pasted image 20240309173912.png",
+    "images/Pasted image 20240309173722.png",
+    "images/Pasted image 20240305192442.png",
+    "CPS 590/Chapter 4.md",
+    "images/Chapter 4-20240318105149346.webp",
+    "CPS109 List.md",
     "CPS109 List.pdf",
     "Untitled.canvas",
-    "CPS 590/Chapter 4.md",
     "process control block.md",
-    "images/Pasted image 20240309174251.png",
-    "images/Pasted image 20240309173912.png",
-    "images/Pasted image 20240309173827.png",
-    "images/Pasted image 20240309173722.png",
-    "images/Pasted image 20240305201120.png",
-    "images/Pasted image 20240305192442.png",
-    "images/Pasted image 20240130115430.png",
-    "images/Pasted image 20240130105231.png",
     "CPS 590/Chapter 3.md",
     "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
     "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
@@ -250,8 +251,6 @@
     "export/Chapter 1/plugin/chalkboard/plugin.js",
     "export/Chapter 1/plugin/chalkboard/plugin (copy).js",
     "export/Chapter 1/plugin/chalkboard/img",
-    "export/Chapter 1/plugin/chalkboard",
-    "export/Chapter 1/plugin/chart/chart.min.js",
     "Untitled 1.canvas"
   ]
 }
