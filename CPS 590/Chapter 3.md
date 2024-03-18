@@ -14,7 +14,7 @@ fork() -> Parent Process has a pid > 0. Child process has a pid = 0. Failure has
 - **Process**: Processor executing a code
 ![[Pasted image 20240305201120.png|635]]
 - *P1* and *P2* have the share code but different set of data
-- During program execution, a process can be characterized by a number of elements
+- During program execution, a process can be characterised by a number of elements
 	- *Identifier*: Example is a Process ID
 	- *State*: Running or Not Running
 	- *Priority*: Which one should be executed first
