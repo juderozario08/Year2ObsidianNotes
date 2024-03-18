@@ -1,7 +1,0 @@
-![[Chapter 2 Test-20240318105809115.webp]]
-![[Chapter 2 Test-20240318105822359.webp]]
-![[Chapter 2 Test-20240318105838015.webp]]
-![[Chapter 2 Test-20240318105910022.webp]]
-![[Chapter 2 Test-20240318105932273.webp]]
-![[Chapter 2 Test-20240318105948811.webp]]
-![[Chapter 2 Test-20240318110007143.webp]]
