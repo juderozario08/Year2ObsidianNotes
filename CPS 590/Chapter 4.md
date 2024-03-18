@@ -50,14 +50,14 @@
 	- *terminating* of a process terminates all threads within the process
 ## Thread Execution State
 - Key states
-	- Running
-	- Ready
-	- Blocked
+	- *Running*
+	- *Ready*
+	- *Blocked*
 - Thread operations associated with a change in thread state are
-	- Spawn
-	- Block
-	- Unblock
-	- Finish
+	- *Spawn*
+	- *Block*
+	- *Unblock*
+	- *Finish*
 ## RPC Using Single Thread
 ![[Chapter 4-20240318100401949.webp|342]]
 ## RPC Using One Thread per Server
@@ -103,10 +103,10 @@
 - *1:M*: Migrated thread from one process to another. Allows a thread to be easily moved among different systems. Ra, Emerald
 - *M:N*: Combination of *M:1 and 1:M*. TRIX
 ## Multi-threading and Multicore
-![[Chapter 4-20240318103330075.webp|500]]
-![[Chapter 4-20240318103220683.webp|500]]
+![[Chapter 4-20240318103330075.webp|421]]
+![[Chapter 4-20240318103220683.webp|423]]
 ## Database Workloads on Multiple-Processor Hardware
-
+![[Chapter 4-20240318105149346.webp|450]]
 ## Linux Tasks
 - A process or task in Linux is represented by a task_struct data structure. It contains
 	- *State* => executing, ready, blocked
@@ -118,7 +118,7 @@
 	- *File system* => pointers to opened files, current directory of process
 	- *Address Space* => program, data 
 	- *Context* => registers, stack 
-	![[Chapter 4-20240318104011772.webp|423]]
+	![[Chapter 4-20240318104011772.webp|350]]
 ## Linux Threads
 - Linux does not recognise a distinction between threads and processes
 - New process is created by copying the attributes of the current process (fork or clone)

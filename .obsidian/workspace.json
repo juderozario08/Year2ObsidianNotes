@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -205,6 +206,8 @@
   },
   "active": "78d536b77e602191",
   "lastOpenFiles": [
+    "images/Chapter 4-20240318105149346.webp",
+    "Chapter 4-20240318105149346.webp",
     "CPS109 List.md",
     "images/IMG_4E16C13ACC21-1.jpeg",
     "CPS109 List.pdf",
@@ -219,7 +222,6 @@
     "images/Pasted image 20240305192442.png",
     "images/Pasted image 20240130115430.png",
     "images/Pasted image 20240130105231.png",
-    "images/Pasted image 20240129132802.png",
     "CPS 590/Chapter 3.md",
     "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
     "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
