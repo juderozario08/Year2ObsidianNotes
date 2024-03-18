@@ -50,7 +50,7 @@
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "Year2ObsidianNotes"
+    "Year2Notes"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": true,
@@ -75,7 +75,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1710475794058,
+  "spacesAutoBackupLast": 1710647615292,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5db7a7faa46b0415",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
+                "file": "CPS 590/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
+                "file": "CPS 590/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md"
+                "file": "CPS 590/Chapter 3.md"
               }
             }
           },
@@ -215,26 +204,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5db7a7faa46b0415",
+  "active": "78d536b77e602191",
   "lastOpenFiles": [
-    "Pasted image 20240129130906.png",
-    "Pasted image 20240129132802.png",
-    "Pasted image 20240130115430.png",
-    "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
+    "Chapter 3-20240316235334218.webp",
+    "Chapter 3-20240316234312471.webp",
+    "Chapter 3-20240316233734326.webp",
+    "Chapter 3-20240316191846257.webp",
+    "Chapter 3-20240316182231464.webp",
+    "Sem1Notes/CPS 305/LISP Crash Course.md",
+    "Sem1Notes/CPS 305/Table of Contents.md",
     "CPS 590/Chapter 3.md",
-    "CPS 209/Class Methods.md",
-    "CPS 590/Chapter 1.md",
-    "CPS 590/Chapter 2.md",
-    "Chapter 3-20240309220630714.webp",
+    "Chapter 3-20240316172512192.webp",
+    "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
     "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md",
+    "Chapter 3-20240309220630714.webp",
     "Chapter 3-20240309205755572.webp",
     "Chapter 3-20240309203847992.webp",
     "Chapter 3-20240309203830623.webp",
     "Chapter 3-20240309203821916.webp",
-    "Chapter 3-20240309193545771.webp",
-    "Chapter 3-20240309191114551.webp",
-    "Chapter 3-20240309190331233.webp",
     "process control block.md",
     "CPS 209/Chapter 2.md",
     "Untitled.canvas",
@@ -244,9 +232,11 @@
     "CPS 209/Java Crash Course.md",
     "CPS 209/Data Structures.md",
     "CPS 209/Class, Inheritance and Abstraction.md",
+    "CPS 209/Class Methods.md",
+    "CPS 590/Chapter 2.md",
+    "CPS 590/Chapter 1.md",
     "CCHY583/Chapter 2 - Carbon Based Fuels.md",
     "CCHY583/context.mdb",
-    "Sem1Notes/CPS 305/LISP Crash Course.md",
     "Sem1Notes/CPS 305/Key Value Pairs (Hashtables).md",
     "Sem1Notes/CPS 305/Heap.md",
     "Sem1Notes/CPS 305/Data Structure.md",
@@ -256,7 +246,6 @@
     "Excalidraw/Drawing 2024-01-25 23.10.54.excalidraw.md",
     "Excalidraw/Drawing 2024-01-22 12.24.54.excalidraw.md",
     "Excalidraw",
-    "Excalidraw/Drawing 2024-01-24 16.33.20.excalidraw.md",
     "export/Chapter 1/plugin/chalkboard/_style.css",
     "export/Chapter 1/plugin/chalkboard/style.css",
     "export/Chapter 1/plugin/chalkboard/plugin.js",
