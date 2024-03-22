@@ -1,7 +1,7 @@
 ## Processes and Threads
 - **Resource Ownership**
 	- Includes a virtual address space that hold the process image(PCB)
-	- OS performs a protection function to prevent interference between processes wrt resources
+	- OS performs a protection function to prevent interference between processes resources
 - **Scheduling/Execution**
 	- Execution path that maybe interleaved with other processes
 	- Process has an execution state and a dispatching priority and that is controlled by the OS
@@ -32,7 +32,6 @@
 	- access to the memory and resources of its process (shared amongst threads)
 ## Threads vs Processes
 ![[Chapter 4-20240318095542807.webp|400]]
-
 ## Benefits of Threads
 - Takes less time to create a new thread 
 - Less time to terminate a thread 

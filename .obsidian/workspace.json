@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "750fc6f419ac2dca",
+        "id": "38580f50959065d4",
         "type": "tabs",
         "children": [
           {
-            "id": "78d536b77e602191",
+            "id": "f1e44e720aa51c26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPS 590/Chapter 1.md",
+                "file": "CPS 590/Chapter 4.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 227.50043487548828
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 590/Chapter 1.md",
+                "file": "CPS 590/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 590/Chapter 1.md",
+                "file": "CPS 590/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPS 590/Chapter 1.md"
+                "file": "CPS 590/Chapter 4.md"
               }
             }
           },
@@ -194,63 +194,63 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "3d-graph:3D Graph": false,
-      "notion-like-tables:Create loom": false
+      "notion-like-tables:Create loom": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "78d536b77e602191",
+  "active": "f1e44e720aa51c26",
   "lastOpenFiles": [
-    "CPS 590/Test 1.pdf",
     "CPS 590/Practice Midterm 2.pdf",
-    "images/IMG_4E16C13ACC21-1.jpeg",
-    "images/Chapter 3-20240309193545771.webp",
-    "images/Chapter 3-20240309191114551.webp",
-    "images/Chapter 3-20240309190331233.webp",
-    "images/Chapter 3-20240309175252164.webp",
-    "images/Chapter 3-20240309175116488.webp",
-    "images/Pasted image 20240309173912.png",
-    "images/Pasted image 20240309173722.png",
-    "images/Pasted image 20240305192442.png",
+    "CPS 590/Test 1.pdf",
     "CPS 590/Chapter 4.md",
-    "images/Chapter 4-20240318105149346.webp",
-    "CPS109 List.md",
-    "CPS109 List.pdf",
-    "Untitled.canvas",
-    "process control block.md",
-    "CPS 590/Chapter 3.md",
-    "Excalidraw/Drawing 2024-03-13 17.23.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-15 00.09.53.excalidraw.md",
-    "CPS 209/Class Methods.md",
-    "CPS 590/Chapter 1.md",
-    "CPS 590/Chapter 2.md",
-    "Excalidraw/Drawing 2024-03-09 20.40.19.excalidraw.md",
+    "CPS 590/Chapter 5.md",
+    "CPS 305/Table of Contents.md",
+    "CPS 209/CPS 209.md",
     "CPS 209/Chapter 2.md",
-    "Excalidraw/Drawing 2024-03-02 21.54.20.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-20 22.03.39.excalidraw.md",
-    "CPS 209/Chapter 3.md",
+    "CPS 209/Class Methods.md",
     "CPS 209/Java Crash Course.md",
     "CPS 209/Data Structures.md",
     "CPS 209/Class, Inheritance and Abstraction.md",
-    "CCHY583/Chapter 2 - Carbon Based Fuels.md",
-    "CCHY583/context.mdb",
-    "Sem1Notes/CPS 305/LISP Crash Course.md",
-    "Sem1Notes/CPS 305/Key Value Pairs (Hashtables).md",
-    "Sem1Notes/CPS 305/Heap.md",
-    "Sem1Notes/CPS 305/Data Structure.md",
-    "CCHY583/Chapter 1 - Introduction, Energy Measurement Units.md",
-    "Excalidraw/Drawing 2024-01-25 23.10.54.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-22 12.24.54.excalidraw.md",
+    "CPS 305/CPS305.md",
+    "CPS109 List.md",
+    "CPS 305.md",
+    "Year 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "images/Chapter 5-20240318135854924.webp",
+    "images/Chapter 5-20240318141053562.webp",
+    "images/Chapter 5-20240318141917223.webp",
+    "CPS 305/Key Value Pairs (Hashtables).md",
+    "CPS 590/CPS590.md",
+    "CPS 305/CPS 305.md",
+    "CPS 305/context.mdb",
+    "CPS 305/Week 5.md",
+    "images/Chapter 5-20240318150334680.webp",
+    "images/Chapter 5-20240318150146807.webp",
+    "Excalidraw/Drawing 2024-03-18 14.55.30.excalidraw.md",
+    "images/Chapter 5-20240318143248769.webp",
+    "images/Chapter 5-20240318143224717.webp",
+    "Excalidraw/Drawing 2024-03-18 14.13.20.excalidraw.md",
     "Excalidraw",
+    "CPS 590/Chapter 3.md",
+    "CPS 590/Chapter 2 Test.md",
+    "CPS 590/Chapter 1 Test.md",
+    "CPS 590/Midterm 1.md",
+    "images/Chapter 4-20240318105149346.webp",
+    "Chapter 4-20240318105149346.webp",
+    "images/IMG_4E16C13ACC21-1.jpeg",
+    "CPS109 List.pdf",
+    "Untitled.canvas",
+    "CCHY583/context.mdb",
     "export/Chapter 1/plugin/chalkboard/_style.css",
     "export/Chapter 1/plugin/chalkboard/style.css",
     "export/Chapter 1/plugin/chalkboard/plugin.js",
     "export/Chapter 1/plugin/chalkboard/plugin (copy).js",
-    "export/Chapter 1/plugin/chalkboard/img",
     "Untitled 1.canvas"
   ]
 }
