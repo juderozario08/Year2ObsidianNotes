@@ -8,5 +8,10 @@
   },
   "vimMode": true,
   "showLineNumber": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "foldHeading": true,
+  "foldIndent": true
 }

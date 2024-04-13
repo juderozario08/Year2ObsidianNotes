@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "38580f50959065d4",
+        "id": "ff7f57bac84fa7c5",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e44e720aa51c26",
+            "id": "5daa980d20b38278",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPS 590/Chapter 4.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -90,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPS 590/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPS 590/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CPS 590/Chapter 4.md"
-              }
+              "state": {}
             }
           },
           {
@@ -203,11 +195,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f1e44e720aa51c26",
+  "active": "5daa980d20b38278",
   "lastOpenFiles": [
     "CPS 590/Practice Midterm 2.pdf",
-    "CPS 590/Test 1.pdf",
+    "Excalidraw/Drawing 2024-03-24 22.51.54.excalidraw.md",
+    "Excalidraw",
     "CPS 590/Chapter 4.md",
+    "CPS 590/Test 1.pdf",
     "CPS 590/Chapter 5.md",
     "CPS 305/Table of Contents.md",
     "CPS 209/CPS 209.md",
@@ -236,11 +230,9 @@
     "images/Chapter 5-20240318143248769.webp",
     "images/Chapter 5-20240318143224717.webp",
     "Excalidraw/Drawing 2024-03-18 14.13.20.excalidraw.md",
-    "Excalidraw",
     "CPS 590/Chapter 3.md",
     "CPS 590/Chapter 2 Test.md",
     "CPS 590/Chapter 1 Test.md",
-    "CPS 590/Midterm 1.md",
     "images/Chapter 4-20240318105149346.webp",
     "Chapter 4-20240318105149346.webp",
     "images/IMG_4E16C13ACC21-1.jpeg",

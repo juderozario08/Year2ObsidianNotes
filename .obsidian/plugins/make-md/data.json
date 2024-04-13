@@ -38,6 +38,10 @@
     "Year2Notes": [
       "CPS393",
       "CPS305"
+    ],
+    "Year2ObsidianNotes": [
+      "/",
+      "CPS 590"
     ]
   },
   "expandedSpaces": [
@@ -75,7 +79,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1711063914778,
+  "spacesAutoBackupLast": 1711335115093,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
