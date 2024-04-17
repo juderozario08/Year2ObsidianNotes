@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ff7f57bac84fa7c5",
+        "id": "b2e1155561aee4ed",
         "type": "tabs",
         "children": [
           {
-            "id": "5daa980d20b38278",
+            "id": "963e956ddefed4f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-04-16 11.07.55.excalidraw.md"
+              }
             }
           }
         ]
@@ -90,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50043487548828
+    "width": 227.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -106,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2024-04-16 11.07.55.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2024-04-16 11.07.55.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Drawing 2024-04-16 11.07.55.excalidraw.md"
+              }
             }
           },
           {
@@ -186,23 +193,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "omnisearch:Omnisearch": false,
-      "notion-like-tables:Create loom": false,
-      "3d-graph:3D Graph": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "3d-graph:3D Graph": false,
+      "notion-like-tables:Create loom": false
     }
   },
-  "active": "5daa980d20b38278",
+  "active": "963e956ddefed4f6",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-04-16 11.07.55.excalidraw.md",
+    "Chapter 4.pdf",
+    "Jude Rozario - CPS590 - Operating Systems I - W2024 - Toronto Metropolitan University.pdf",
+    "Year 2.md",
+    "CPS 590/Test 2.pdf",
+    "Haskell_Notes_GDV.pdf",
+    "CPS 590/Chapter 5.md",
+    "CPS 590/Test2.md",
+    "Chapter 5-20240415215620091.webp",
+    "Chapter 5-20240415215320694.webp",
+    "Chapter 5-20240415215253629.webp",
+    "Chapter 5-20240415214556115.webp",
+    "Chapter 5-20240415212235494.webp",
+    "Excalidraw/Drawing 2024-04-15 19.57.26.excalidraw.md",
+    "Context/spacesLastSync.log",
+    "Context",
     "CPS 590/Practice Midterm 2.pdf",
     "Excalidraw/Drawing 2024-03-24 22.51.54.excalidraw.md",
     "Excalidraw",
     "CPS 590/Chapter 4.md",
     "CPS 590/Test 1.pdf",
-    "CPS 590/Chapter 5.md",
     "CPS 305/Table of Contents.md",
     "CPS 209/CPS 209.md",
     "CPS 209/Chapter 2.md",
@@ -213,7 +235,6 @@
     "CPS 305/CPS305.md",
     "CPS109 List.md",
     "CPS 305.md",
-    "Year 2.md",
     "Untitled 1.md",
     "Untitled.md",
     "images/Chapter 5-20240318135854924.webp",
@@ -227,22 +248,9 @@
     "images/Chapter 5-20240318150334680.webp",
     "images/Chapter 5-20240318150146807.webp",
     "Excalidraw/Drawing 2024-03-18 14.55.30.excalidraw.md",
-    "images/Chapter 5-20240318143248769.webp",
-    "images/Chapter 5-20240318143224717.webp",
     "Excalidraw/Drawing 2024-03-18 14.13.20.excalidraw.md",
     "CPS 590/Chapter 3.md",
-    "CPS 590/Chapter 2 Test.md",
-    "CPS 590/Chapter 1 Test.md",
-    "images/Chapter 4-20240318105149346.webp",
-    "Chapter 4-20240318105149346.webp",
-    "images/IMG_4E16C13ACC21-1.jpeg",
-    "CPS109 List.pdf",
     "Untitled.canvas",
-    "CCHY583/context.mdb",
-    "export/Chapter 1/plugin/chalkboard/_style.css",
-    "export/Chapter 1/plugin/chalkboard/style.css",
-    "export/Chapter 1/plugin/chalkboard/plugin.js",
-    "export/Chapter 1/plugin/chalkboard/plugin (copy).js",
     "Untitled 1.canvas"
   ]
 }
