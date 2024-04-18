@@ -11,8 +11,13 @@
             "id": "5daa980d20b38278",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CPS 590/Chapter 6.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -85,12 +90,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.50043487548828
+    "width": 227.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "6aceda436b1906a1",
@@ -106,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPS 590/Chapter 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CPS 590/Chapter 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CPS 590/Chapter 6.md"
+              }
             }
           },
           {
@@ -197,6 +206,18 @@
   },
   "active": "5daa980d20b38278",
   "lastOpenFiles": [
+    "Chapter 6-20240417113911030.webp",
+    "Chapter 6-20240417092308943.webp",
+    "Chapter 6-20240417092233100.webp",
+    "Chapter 6-20240417092135735.webp",
+    "Chapter 6-20240417092013712.webp",
+    "Chapter 6-20240417091833472.webp",
+    "Chapter 6-20240417091547660.webp",
+    "Chapter 6-20240417085613300.webp",
+    "Chapter 6-20240417085534392.webp",
+    "CPS 590/Chapter 6.md",
+    "Context/spacesLastSync.log",
+    "Context",
     "CPS 590/Practice Midterm 2.pdf",
     "Excalidraw/Drawing 2024-03-24 22.51.54.excalidraw.md",
     "Excalidraw",
@@ -218,31 +239,20 @@
     "Untitled.md",
     "images/Chapter 5-20240318135854924.webp",
     "images/Chapter 5-20240318141053562.webp",
-    "images/Chapter 5-20240318141917223.webp",
     "CPS 305/Key Value Pairs (Hashtables).md",
     "CPS 590/CPS590.md",
     "CPS 305/CPS 305.md",
     "CPS 305/context.mdb",
     "CPS 305/Week 5.md",
-    "images/Chapter 5-20240318150334680.webp",
-    "images/Chapter 5-20240318150146807.webp",
     "Excalidraw/Drawing 2024-03-18 14.55.30.excalidraw.md",
-    "images/Chapter 5-20240318143248769.webp",
-    "images/Chapter 5-20240318143224717.webp",
     "Excalidraw/Drawing 2024-03-18 14.13.20.excalidraw.md",
     "CPS 590/Chapter 3.md",
     "CPS 590/Chapter 2 Test.md",
-    "CPS 590/Chapter 1 Test.md",
-    "images/Chapter 4-20240318105149346.webp",
-    "Chapter 4-20240318105149346.webp",
-    "images/IMG_4E16C13ACC21-1.jpeg",
     "CPS109 List.pdf",
     "Untitled.canvas",
     "CCHY583/context.mdb",
     "export/Chapter 1/plugin/chalkboard/_style.css",
     "export/Chapter 1/plugin/chalkboard/style.css",
-    "export/Chapter 1/plugin/chalkboard/plugin.js",
-    "export/Chapter 1/plugin/chalkboard/plugin (copy).js",
     "Untitled 1.canvas"
   ]
 }
