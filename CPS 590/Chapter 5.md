@@ -189,3 +189,88 @@ void main(){
 - **semInit** => to any non-negative integer value
 - **semWait** => decrement value. if value < 0 process doing wait BLOCKS else process continues execution
 - **semSignal** => increment value. if value <- 0, process that was block by *semWait* is UNBLOCKED
+
+## Consequences
+- No way to know 
+	- if a process decrements a *semaphore* whether it will block or not
+	- which process will continue immediately on a uni-processor system when 2 processes are running concurrently
+	- whether another process is waiting so the number of unblocked processes may be zero or one
+
+## Mutual Exclusion
+```c
+#define NUM_OF_PROCESSES 10
+const int n = NUM_OF_PROCESSES;
+semaphore s = 1;
+void P(int i){
+	while (true){
+		semWait(s);
+		semSignal(s);
+	}
+}
+void main(){
+	parbegin (P(1), P(2), ...., P(n));
+}
+```
+### Stack Frame
+- P1, P2, P3, P4 
+- P1 wait(1): s = 0; in call stack
+- P2 wait(0): s = -1 block
+- P3 wait(-1): s = -2 block
+- P4 wait(-2): s = -3 block
+- P1 sig(-3): s = -2 unblock, say, P3
+- P3 in Call Stack
+- P3 sig (-2) s = -1 unblock, say, P2
+- P2 in Call Stack
+- P1 wait (-1) s = -2 block
+
+## Semaphore Primitives
+
+![[Chapter 5-20240415212235494.webp]]
+
+## Binary Semaphore
+- Can only take on values 0 or 1
+- Cannot allow multiple processes into Call Stack at once
+- Same expressive power as counting/general semaphore
+
+## Binary Semaphore Primitives
+![[Chapter 5-20240415214556115.webp]]
+
+## Mutex
+- Mutual Exclusion Lock
+- Programming flag used to grab and release object
+- Only process that locked the mutex may unlock it
+- similar to binary semaphore
+- pthread functions for mutex: init, lock, unlock, destroy
+
+## Strong/Weak Semaphores
+- Queue is used to hold the processes
+- **Strong Semaphores**:
+	- process blocked the longest is released from the queue first (FIFO)
+	- no starvation
+- **Weak Semaphores**:
+	- process removed with no specific order
+	- possible starvation
+
+## Shared Data Protected By a Semaphore
+![[Chapter 5-20240415215253629.webp]]
+![[Chapter 5-20240415215320694.webp]]
+
+## Syncing by a Semaphore
+- Statements in A must be performed before B
+- B waits until A returns
+- Example: A fills data and B processes data
+![[Chapter 5-20240415215620091.webp]]
+
+## Producer/Consumer Problem
+**LOOK AT SLIDES FOR THE BUFFER STRUCTURE**
+
+## Implementation of Semaphores
+- semWait and semSignal operations can be implemented as atomic primitives
+- can be implemented in hardware or firmware
+- Software schemes such as Dekker's or Peterson's algorithms can be used
+- Use hardware-supported schemes for mutual exclusion
+
+## Monitors
+- Provides equal functionality to that of semaphores and is easier to control
+- implemented as a program library
+- software module consisting of one or more procedures, an init sequence and local data
